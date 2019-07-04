@@ -1,0 +1,47 @@
+.page-footer{
+	background-color: lightgray;
+}
+
+
+
+html, body, header, #intro{
+	height: 100%;
+}
+
+
+
+#intro{
+	background: url(../img/backg.jpg) no-repeat center top / cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.spn{
+	font-size: 17px
+}
+
+.{
+	background-color: lightgray
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:57%;
+
+}
+.map-container iframe{
+left:%;
+top:%;
+height:400px;
+width:%;
+position:absolute;
+}
+
+.title_p{
+	font-size: 18px;
+}
+
+
+
+
+
