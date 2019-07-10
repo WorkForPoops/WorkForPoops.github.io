@@ -215,13 +215,13 @@ margin: -16px 0 0 -16px;
 ****************************************************/
 
 #intro{
-	background: url(../img/bk_gr.jpg) no-repeat center fixed / cover;
+	background: url(../img/bk_gr.jpg) no-repeat center top fixed / cover;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 #intro_contact{
-	background: url(../img/salon_priv.png) no-repeat center fixed / cover;
+	background: url(../img/salon_priv.png) no-repeat center top fixed / cover;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -266,7 +266,7 @@ position:absolute;
 }
 
 #intro_hair{
-	background: url(../img/stayling.jpg) no-repeat center fixed / cover;
+	background: url(../img/stayling.jpg) no-repeat center top fixed / cover;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -287,11 +287,67 @@ position:absolute;
 }
 
 #intro_nails{
-	background: url(../img/nails_1.jpg) no-repeat center fixed / cover;
+	background: url(../img/nails_1.jpg) no-repeat center top fixed / cover;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
 .header_nails{
 	height: 75%;
+}
+
+
+/***************************************************
+					TRIHOLOGIA
+**************************************************/
+
+.header_trihologia{
+	height: 75%;
+}
+
+#intro_trigologia{
+	height: 100%;
+}
+
+#intro_trigologia{
+	background: url(../img/trih_2.jpg) no-repeat center top fixed / cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+/***************************************************
+					KOSMETOLOGIA
+**************************************************/
+
+.header_kosmetologia{
+	height: 75%;
+}
+
+#intro_kosmetologia{
+	height: 100%;
+}
+
+#intro_kosmetologia{
+	background: url(../img/kosmetolog_1.jpg) no-repeat center top fixed / cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+/***************************************************
+					DEPILYAC
+**************************************************/
+
+.header_depilyac{
+	height: 75%;
+}
+
+#intro_depilyac{
+	height: 100%;
+}
+
+#intro_depilyac{
+	background: url(../img/depilyaciya_1.jpg) no-repeat center top fixed / cover;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
