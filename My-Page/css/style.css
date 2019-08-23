@@ -1,0 +1,345 @@
+#header{
+	background: url(../img/bg-page.jpg) no-repeat center top / cover;
+	height: 100vh
+}
+
+.img-page{
+	width: 150px;
+	height: 150px;
+}
+
+h1, h2, h3{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+/*
+body {
+    background-color: #c4c4c4;
+  
+}
+*/
+
+.text {
+    position: absolute;
+     
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.dot{
+	color: red;
+}
+
+.tx_1{
+	font-size: 20px
+}
+
+.btn{
+	background-color: orange;
+	border-radius: 30px;
+	transition: all ease 300ms;
+	
+	text-transform: none;
+}
+
+.btn:hover{
+	background: orangered;
+}
+
+.page-footer{
+	height: 30px;
+	text-align: center;
+}
+
+.a_1{
+	border-bottom: 1px solid white;
+	color: white;
+}
+
+.a_1:hover{
+	color: darkgray;
+}
+
+/*THE LAB PAGE*/
+
+.lab_b{
+	background-color: #060f30;
+	transition: all ease 1s;
+}
+
+.a_2{
+	color: white;
+	font-size: 19px;
+}
+
+.a_2:hover{
+	color: #cb0032;
+}
+
+
+.c-hamburger{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 66px; /*96*/
+	height: 66px; /*96*/
+	font-size: 0;
+	box-shadow: none;
+	cursor: pointer;
+	border: none;
+}
+
+.c-hamburger:focus{
+	outline: none;
+}
+
+.c-hamburger span{
+	display: block;
+	position: absolute;
+	top: 29px; /*44*/
+	left: 12px; /*18*/
+	right: 12px; /*18*/
+	height: 3px; /*8*/
+	background: #fff;
+}
+
+.c-hamburger span::before, .c-hamburger span::after{
+	display: block;
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	content: "";
+}
+
+.c-hamburger span::before{
+	top: -20px;
+}
+
+.c-hamburger span::after{
+	bottom: -20px;
+}
+
+.c-hamburger-line{
+	background: #cb0032;
+}
+
+.c-hamburger-line span{
+	transition: background 0s 0.3s;
+}
+
+.c-hamburger-line span::before, .c-hamburger-line span::after{
+	transition-duration: 0.3s, 0.3s;
+	transition-delay: 0.3s, 0s;
+}
+	
+.c-hamburger-line span::before{
+	transition-property: top, transform;
+}
+
+.c-hamburger-line span::after{
+	transition-property: bottom, transform;
+}
+
+.c-hamburger-line.is-active{
+	background: green;
+}
+
+.c-hamburger-line.is-active span{
+	background: none;
+}
+
+.c-hamburger-line.is-active span::before{
+	top: 0;
+	transform: rotate(-45deg);
+}
+
+.c-hamburger-line.is-active span::after{
+	bottom: 0;
+	transform: rotate(45deg)
+}
+
+.c-hamburger-line.is-active span::before, .c-hamburger-line.is-active span::after{
+	transition-delay: 0s, 0.3s;
+}
+
+#menu{
+	width: 200px;
+	margin-left: -134px;
+/*	background: #fbf0ff;*/
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	transition: all ease 1s;
+	z-index: 9999;
+}
+
+.body-active{
+	margin-left: 200px;
+}
+
+#menu.nav-active{
+	margin-left: 0;
+}
+
+.row1{
+	display: flex;
+	justify-content: space-around;
+}
+
+.c1{
+	height: 300px;
+}
+
+.col_1{
+	background: url(../img/flower_calc_ph.png) no-repeat center top / cover;
+	transition: all ease 300ms;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.col_1:hover{
+	opacity: 0.5;
+	position: relative;
+}
+
+.p_1{
+	margin-top: 0px;
+	transition: all ease 500ms;
+	background: #cb0032;
+	position: relative;
+	opacity: 0;
+	height: 40px;
+}
+
+.col_2{
+	background: url(../img/clock.png) no-repeat center top / cover;
+	transition: all ease 300ms;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.col_2:hover{
+	opacity: 0.5;
+	position: relative;
+}
+
+.p_2{
+	margin-top: 0px;
+	transition: all ease 500ms;
+	background: #cb0032;
+	position: relative;
+	opacity: 0;
+	height: 40px;
+}
+
+.col_3{
+	background: url(../img/scr_maria.png) no-repeat center top / cover;
+	transition: all ease 300ms;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.col_3:hover{
+	opacity: 0.5;
+	position: relative;
+}
+
+.p_3{
+	margin-top: 0px;
+	transition: all ease 500ms;
+	background: #cb0032;
+	position: relative;
+	opacity: 0;
+	height: 40px;
+}
+
+.p_brd{
+	border: 1px solid #474747;
+	border-radius: 5px;
+	padding: 4px;
+}
+
+/***************************
+CALCULATOR PAGE
+***************************/
+
+.calc {
+	margin-top: 30px;
+	border: 7px solid #aeaeae;
+	padding: 20px 40px;
+	
+	background: url(../img/bg_fl_1.png) no-repeat center top / cover;
+	
+}	
+
+.calc_2{
+	
+}
+#final_price {
+	font-size: 40px;
+	font-weight: 900;
+}
+.card-images {
+	padding-top: 50px;
+}
+.card-images img {
+	display: none;
+	height: 50vh;
+}
+#card_1_1 {
+	display: inline-block;
+}
+
+
+/************************
+CLOCK
+************************/
+
+#clock{
+	width: 600px;
+	height: 155px;
+	margin: 50px auto;
+	border: 1px solid black;
+	transition: all ease 1s;
+	background: url(../img/sky_1.png) no-repeat center top / cover;
+	overflow: hidden;
+	border-radius: 50px;
+}
+
+#sec{
+	display: block;
+	margin: 0 auto;
+	height: 350px; 
+
+
+}
+
+#clock_2{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
