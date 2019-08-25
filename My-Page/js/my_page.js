@@ -39,3 +39,25 @@ document.getElementById('col_2').onmouseout = function(){
 }
 
 
+document.getElementById('col_4').onmouseover = function(){
+	document.getElementById('p_4').style.marginTop = '-40px';
+	document.getElementById('p_4').style.opacity = '1';
+}
+
+document.getElementById('col_4').onmouseout = function(){
+	document.getElementById('p_4').style.marginTop = '0px';
+	document.getElementById('p_4').style.opacity = '0';
+}
+
+
+document.getElementById('col_5').onmouseover = function(){
+	document.getElementById('p_5').style.marginTop = '-40px';
+	document.getElementById('p_5').style.opacity = '1';
+}
+
+document.getElementById('col_5').onmouseout = function(){
+	document.getElementById('p_5').style.marginTop = '0px';
+	document.getElementById('p_5').style.opacity = '0';
+}
+
+
