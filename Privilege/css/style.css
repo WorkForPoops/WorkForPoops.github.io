@@ -11,6 +11,28 @@ span{
 	font-family: 'Dancing Script', cursive;
 }
 
+
+.btn_c {
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+	border: solid 1px white;
+	color: white;
+}
+
+.btn_c:hover {
+  background-color: indianred;
+  color: white;
+}
+
+.ul_c li a{
+	-webkit-transition-duration: 0.2s; /* Safari */
+  	transition-duration: 0.2s;
+}
+
+.ul_c li a:hover{
+	border-bottom: 1px solid red;
+}
+
 #intro{
 	background: url(../img/bg_privil.jpg) no-repeat center top / cover;
 	-webkit-background-size: cover;
@@ -26,6 +48,43 @@ span{
 		background-color:  #24355c;
 	}
 }
+
+
+/*ARRAY*/
+
+.arrow-7 {
+    margin: 30px;
+}
+.arrow-7 span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -16px;
+    animation: arrow-7 2s infinite;
+}
+.arrow-7 span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-7 span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-7 {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
 
 
 
@@ -49,11 +108,11 @@ span{
 }
 
 hr{
-	background-color: darkred;
+	background-color: indianred;
 }
 
 .c_h{
-	color: darkred;
+	color: indianred;
 }
 
 
@@ -247,7 +306,7 @@ margin: -16px 0 0 -16px;
 ****************/
 
 #intro_hair{
-	background: url(../img/stayling.jpg) no-repeat fixed top / cover;
+	background: url(../img/haircut_privilege.png) no-repeat fixed top / cover;
 	height: 100%;
 }
 
@@ -278,7 +337,7 @@ margin: -16px 0 0 -16px;
 }
 
 #intro_kosmetologia{
-	background: url(../img/kosmetolog_1.jpg) no-repeat fixed top / cover;
+	background: url(../img/kosmetologia_privilege.png) no-repeat fixed top / cover;
 	height: 100%
 }
 
@@ -291,7 +350,7 @@ margin: -16px 0 0 -16px;
 }
 
 #intro_nails{
-	background: url(../img/nails_1.jpg) no-repeat fixed top / cover;
+	background: url(../img/nails_privilege.png) no-repeat fixed top / cover;
 	height: 100%;
 }
 
@@ -304,7 +363,7 @@ margin: -16px 0 0 -16px;
 }
 
 #intro_depilyac{
-	background: url(../img/depilyaciya_1.jpg) no-repeat fixed top / cover;
+	background: url(../img/Depilyacia_privilege.png) no-repeat fixed top / cover;
 	height: 100%;
 }
 
