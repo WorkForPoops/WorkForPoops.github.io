@@ -1,0 +1,136 @@
+html, body, header, #intro{
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+/*	font-family: 'Dancing Script', cursive;*/
+	font-family: 'Comfortaa', cursive;
+}
+
+span{
+	font-family: 'Dancing Script', cursive;
+}
+
+#intro{
+	background: url(../img/bg_privil.jpg) no-repeat center top / cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.top-nav-collapse{
+	background-color: black;
+}
+
+@media (max-width: 768px) {
+	.navbar: not(.top-nav-collapse){
+		background-color:  #24355c;
+	}
+}
+
+
+
+.color_1{
+	background-color: red;
+}
+
+
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+hr{
+	background-color: darkred;
+}
+
+.c_h{
+	color: darkred;
+}
+
+/***************
+	HAIRCUT
+****************/
+
+#intro_hair{
+	background: url(../img/stayling.jpg) no-repeat fixed top / cover;
+	height: 100%;
+}
+
+.header_hair{
+	height: 50%;
+}
+
+
+/****************
+	TRIHOLOGIA
+*****************/
+
+.header_trihologia{
+	height: 50%;
+}
+
+#intro_trigologia{
+	background: url(../img/trih_2.jpg) no-repeat fixed top / cover;
+	height: 100%;
+}
+
+/****************
+	KOSMETOLOGIA
+*****************/
+
+.header_kosmetologia{
+	height: 50%;
+}
+
+#intro_kosmetologia{
+	background: url(../img/kosmetolog_1.jpg) no-repeat fixed top / cover;
+	height: 100%
+}
+
+/*****************
+	NAILS
+*******************/
+
+.header_nails{
+	height: 50%;
+}
+
+#intro_nails{
+	background: url(../img/nails_1.jpg) no-repeat fixed top / cover;
+	height: 100%;
+}
+
+/*******************
+	DEPILYACIA
+*******************/
+
+.header_depilyac{
+	height: 50%;
+}
+
+#intro_depilyac{
+	background: url(../img/depilyaciya_1.jpg) no-repeat fixed top / cover;
+	height: 100%;
+}
+
+/********************
+	CONTACTS
+*********************/
+
+.header_contact{
+	height: 50%;
+}
+
+#intro_contact{
+	background: url(../img/enter_salon.png) no-repeat fixed top / cover;
+	height: 100%;
+}
