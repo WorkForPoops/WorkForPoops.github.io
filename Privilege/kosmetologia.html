@@ -16,24 +16,24 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dancing+Script&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Great+Vibes&display=swap" rel="stylesheet"> 
+ 
 </head>
 
 <body>
 
-  	<header class="header_kosmetologia">	
+  	<header class="header_hair">	
 		
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+		<nav class="navbar navbar-expand-lg navbar-dark black fixed-top scrolling-navbar">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
-    				<img src="img/privilege_2.png" height="60" alt="mdb logo">
+    				<img src="img/privilege_2.png" height="60" alt="logo">
   				</a>
 				
 				
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+				<button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+ 					<div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+		 	    </button>
 				
 				<div class="collapse navbar-collapse" id="basicExampleNav">
 					<ul class="navbar-nav mr-auto smooth-scroll">
@@ -42,9 +42,6 @@
 						</li>
 						<li class="nav-item">
 							<a href="#" class="nav-link waves-effect waves-light">Продукция</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link waves-effect waves-light">Отзовы</a>
 						</li>
 						<li class="nav-item">
 							<a href="contacts.html" class="nav-link waves-effect waves-light">Контакты</a>
@@ -71,1093 +68,2106 @@
 			</div>
 		</nav>
 		
-		<div id="intro_kosmetologia" class="view">
-			<div class="mask rgba-black-strong">
-				<div class="container-fluid d-flex align-items-center justify-content-center h-100">
-					<div class="row d-flex justify-content-center text-center">
+	</header>
+	
+	<main class="container mt-5">
+				
+		<div class="row d-flex justify-content-center text-center pt-5">
 						<div class="col-md-10">
-							<h1 class="privilege display-4 white-text pt-5 mb-2 animated fadeInDown">
+							<h1 class="display-2 black-text pt-5 mb-2 animated fadeInDown">
 								<span>Privilege</span>
 							</h1>
 							<hr class="hr-light">
-							<h2 class="white-text my-4 animated fadeIn">
+							<h4 class="black-text my-4 wow fadeIn">
 								Косметология
-							</h2>
+							</h4>
 							
-							<a href="sign_up.html"><button class="btn btn-outline-white waves-effect waves-light animated fadeInUp">Записаться</button></a>
+							<button type="button" class="btn btn-outline-black wow fadeInUp" data-toggle="modal" data-target="#basicExampleModal">
+							  Другие услуги
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+							  aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								  <div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Услуги</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
+								  </div>
+								  <div class="modal-body">
+									
+										<ul class="nav nav-tabs md-tabs wow fadeIn" role="tablist">
+										  <li class="nav-item col-12">
+											<a class="nav-link black-text" href="#">
+											  <img src="img/Hairdresser.png" alt="hair"> Имидж зона</a>
+										  </li>
+										  <li class="nav-item col-12">
+											<a class="nav-link black-text" href="nails.html">
+											  <img src="img/nail.png" alt=""> Ногтевой сервис</a>
+										  </li>
+										  <!--<li class="nav-item col-12">
+											<a class="nav-link black-text" href="kosmetologia.html">
+											  <img src="img/Beauty.png" alt=""> Косметология</a>
+										  </li>-->
+										  <li class="nav-item col-12">
+											<a class="nav-link black-text" href="trihologia.html">
+											  <img src="img/hair.png" alt=""> Трихология</a>
+										  </li>
+										  <li class="nav-item col-12">
+											<a class="nav-link black-text" href="depilyac.html">
+											  <img src="img/Candle.png" alt=""> Депиляция</a>
+										  </li>
+										  <li class="nav-item col-12">
+											<a class="nav-link black-text" href="massazh.html">
+											  <img src="img/Massage.png" alt=""> Массаж и SPA-терапия</a>
+										  </li>
+										  <li class="nav-item col-12">
+											<a class="nav-link black-text" href="solariy.html">
+											  <i class="fa fa-sun-o black-text"></i> Солярий</a>
+										  </li>
+										</ul>
+									
+								  </div>
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-outline-black" data-dismiss="modal">Закрыть</button>
+								  </div>
+								</div>
+							  </div>
+							</div>
+							
 						</div>
 					</div>
-				</div>
-			</div>
+					
+		<div class="mb-5 mt-5 row d-flex justify-content-center text-center">
+			<hr class="col hr_1">
+			<h2 class="col c_h">Прайс</h2>
+			<hr class="col hr_1">
 		</div>
-		
-	</header>
-	
-	<main class="container">
-		
-		<div class="mt-5 pt-3 pl-5 pr-5 mb-5 text_hair">
-			<h5 class="text-center">Насладитесь долголетием красоты кожи!</h5>
-			<p>
-				Возможности современной косметологии позволяют надолго сохранить молодость. Регулярный и профессиональный уход за лицом и телом с использованием новейших косметических средств, аппаратных методик и инвазивных процедур (то есть нарушающих кожный покров) помогут скорректировать недостатки внешности и обрести ухоженный вид.
+				
+		<div class="row">
+			  <div class="col-md-3">
+				<ul class="nav md-pills pills-primary flex-column" role="tablist">
+				  <li class="nav-item">
+					<a class="nav-link active black-text" data-toggle="tab" href="#panel27" role="tab">Прием специалиста
+					</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link black-text" data-toggle="tab" href="#panel28" role="tab">Эстетическая
+					</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link black-text" data-toggle="tab" href="#panel29" role="tab">Инъекционая
+					</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link black-text" data-toggle="tab" href="#panel292" role="tab">Аппаратная
+					</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link black-text" data-toggle="tab" href="#panel293" role="tab">Терапевтическая
+					</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link black-text" data-toggle="tab" href="#panel294" role="tab">Перманентный макияж
+					</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link black-text" data-toggle="tab" href="#panel295" role="tab">Ресницы и брови
+					</a>
+				  </li>
+				</ul>
+			  </div>
+			  <div class="col-md-9">
+				<!-- Tab panels -->
+				<div class="tab-content vertical">
+				  <!-- Panel 1 -->
+				  <div class="tab-pane fade in show active" id="panel27" role="tabpanel">
+					<h5 class="my-2 h5">Прием специалиста</h5>
+					<p class="text-center mt-4">*Имеются противопоказания. Консультация врача обязательна!</p>
+					
+					<div class="row">
+						<div class="col">
+							Прием специалиста косметолога (по эстетической медицине)
+						</div>
+						<div class="col">
+							<strong>500 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Прием врача-дерматолога (по лечению кожи)
+						</div>
+						<div class="col">
+							<strong>1500 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Прием врача-физиотерапевта (по коррекции фигуры)
+						</div>
+						<div class="col">
+							<strong>500 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Прием врача-косметолога (по подбору косметики)
+						</div>
+						<div class="col">
+							<strong>500 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Прием врача косметолога при покупке препарата
+						</div>
+						<div class="col">
+							<strong>Бесплатно</strong>
+						</div>
+					</div>
+					
+				  </div>
+				  <!-- Panel 1 -->
+				  <!-- Panel 2 -->
+				  <div class="tab-pane fade" id="panel28" role="tabpanel">
+					<h5 class="my-2 h5">Эстетическая</h5>
+					<p class="text-center">*Имеются противопоказания. Консультация врача обязательна!</p>
+					
+					<div class="row">
+						<div class="col">
+							Атравматичная чистка лица Holyland
+						</div>
+						<div class="col">
+							<strong>5200 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Комплексная комбинированная чистка лица
+							<button type="button" class="btn btn-danger btn-sm" data-trigger="focus" data-toggle="popover_16" data-placement="right" title="Включает"
+  data-content="Демакияж, очищение кожи на аппарате с использованием косметики, скраб, ручная чистка, успокаивающие маска и крем.">Подробнее</button>
+						</div>
+						<div class="col">
+							<strong>3950 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
 
-				За счет использования косметологических процедур убираются дефекты внешности, устраняются косметические недостатки, проводится омоложение организма. 
-				В зависимости от выбранного косметологического действия могут быть достигнуты эффекты улучшения кровообращения, снижения веса, улучшение кожи, устранения недостатков, связанных с возрастными изменениями.
-			</p>
-		</div>
-		
-				<div class="mb-5 row d-flex justify-content-center text-center">
-					<hr class="col hr_1">
-					<h2 class="col c_h"><strong>Прайс</strong></h2>
-					<hr class="col hr_1">
-				</div>
-				
-				<ul class="nav mb-3" id="pills-tab_kosmetologia_1" role="tablist">
-					  	
-						  <li class="nav-item">
-							<a class="nav-link active text-dark" id="pills-home-tab_kosmetologia_1" data-toggle="pill" href="#pills-home_kosmetologia_1" role="tab"
-							  aria-controls="pills-home_kosmetologia_1" aria-selected="true">Прием специалиста</a> 
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link text-dark" id="pills-profile-tab_kosmetologia_1" data-toggle="pill" href="#pills-profile_kosmetologia_1" role="tab"
-							  aria-controls="pills-profile_kosmetologia_1" aria-selected="false">Эстетическая</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link text-dark" id="pills-contact-tab_kosmetologia_1" data-toggle="pill" href="#pills-contact_kosmetologia_1" role="tab"
-							  aria-controls="pills-contact_kosmetologia_1" aria-selected="false">Инъекционная</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link text-dark" id="pills-kosmetologia-tab_kosmetologia_1" data-toggle="pill" href="#pills-kosmetologia_kosmetologia_1" role="tab"
-							  aria-controls="pills-kosmetologia_kosmetologia_1" aria-selected="false">Аппаратная</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link text-dark" id="pills-depilyac-tab_kosmetologia_1" data-toggle="pill" href="#pills-depilyac_kosmetologia_1" role="tab"
-							  aria-controls="pills-depilyac_kosmetologia_1" aria-selected="false">Терапевтическая</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link text-dark" id="pills-massage-tab_kosmetologia_1" data-toggle="pill" href="#pills-massage_kosmetologia_1" role="tab"
-							  aria-controls="pills-massage_kosmetologia_1" aria-selected="false">Перманентный макияж</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link text-dark" id="pills-sun-tab_kosmetologia_1" data-toggle="pill" href="#pills-sun_kosmetologia_1" role="tab"
-							  aria-controls="pills-sun_kosmetologia_1" aria-selected="false">Ресницы и брови</a>
-						  </li>
+					  <!-- Accordion card -->
+					  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading13">
+						  <a data-toggle="collapse" data-parent="#accordionEx1" href="#collapse13" aria-expanded="true"
+							aria-controls="collapse13">
+							<p class="mb-0 black-text">
+							  RESULTIME by Collin Paris (Франция) <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Уход базовый косметический (1 час)
+									</div>
+									<div class="col">
+										<strong>3200 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Уход базовый косметический Collin Anti-age
+									</div>
+									<div class="col">
+										<strong>3900 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Уход базовый с альго-маской
+									</div>
+									<div class="col">
+										<strong>3600 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Гигиеническая чистка лица (1.5 часа)
+									</div>
+									<div class="col">
+										<strong>3100 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Чистка лица локальная
+									</div>
+									<div class="col">
+										<strong>1000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Маска по типу кожи
+									</div>
+									<div class="col">
+										<strong>1300 - 1700 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Маска альгинатная
+									</div>
+									<div class="col">
+										<strong>2000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Коллагеновый лист
+									</div>
+									<div class="col">
+										<strong>2400 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Нанесение сыворотки
+									</div>
+									<div class="col">
+										<strong>400 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Уход за жиирной кожей (1 час)
+									</div>
+									<div class="col">
+										<strong>2400 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+					  	</div>
+					  </div>
+					  <hr>
+					  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading14">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse14"
+							aria-expanded="false" aria-controls="collapse14">
+							<p class="mb-0 black-text">
+							  Bioline-Jato (Италия) <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Очищающая процедура, уход базовый косметический (1 час)
+									</div>
+									<div class="col">
+										<strong>3900 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Процедура (увлажнения) "AQUA+"
+									</div>
+									<div class="col">
+										<strong>4100 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Процедура (чувствительная кожа) "DOLCE+"
+									</div>
+									<div class="col">
+										<strong>4200 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Процедура (зрелая кожа) "VITA+"
+									</div>
+									<div class="col">
+										<strong>4800 руб.</strong>
+									</div>
+								</div>
+								<hr>
+							    <div class="row">
+									<div class="col">
+										Процедура (жирная кожа) "PURA+"
+									</div>
+									<div class="col">
+										<strong>4900 руб.</strong>
+									</div>
+								</div>
+							
+						  </div>
 						  
-						</ul>
-						
-						<div class="tab-content pt-2 pl-1" id="pills-tabContent_kosmetologia_1">
-				  		
-					  		<div class="tab-pane fade show active" id="pills-home_kosmetologia_1" role="tabpanel" aria-labelledby="pills-home-tab_kosmetologia_1">
-					  		
-					  			<h3 class="text-center">Прием специалиста</h3>
-								<p class="text-center mb-5">*Имеются противопоказания. Консультация врача обязательна!</p>
-								<table class="table">
-									  <thead class="table table-hover table-sm table-borderless">
-										<tr>
-											<th scope="col"><strong>Наименование</strong></th>
-											<th scope="col"><strong>Описание</strong></th>
-											<th scope="col"><strong>Цена</strong></th>
-										</tr>
-									  </thead>
-									 <tbody>
-										<tr>
-										  <td>Прием специалиста косметолога</td>
-										  <td>По эстетической медицине</td>
-											<td><strong>500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Прием врача-дерматолога</td>
-										  <td>По лечению кожи</td>
-											<td><strong>1500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Прием врача-физиотерапевта</td>
-										  <td>По коррекции фигуры</td>
-											<td><strong>500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Прием косметолога</td>
-										  <td>По подбору косметики</td>
-											<td><strong>500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Прием косметолога</td>
-										  <td>При покупке препарата</td>
-											<td><strong>Бесплатно</strong></td>
-										</tr>
-									</tbody>
-								</table>
-								
-									<div class="row d-flex justify-content-center text-center">
-											<a href="sign_up.html"><button class="btn btn-outline-black waves-effect waves-light mb-5">Записаться</button></a>
-									</div>
-					  		
-							</div>
+						</div>
+
+					  </div>
+					  <hr>
+					  
+					  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading15">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse15"
+							aria-expanded="false" aria-controls="collapse15">
+							<p class="mb-0 black-text">
+							  Премиальный уход за лицом <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse15" class="collapse" role="tabpanel" aria-labelledby="heading15" data-parent="#accordionEx1">
+						  <div class="card-body">
 							
-							<div class="tab-pane fade show active" id="pills-profile_kosmetologia_1" role="tabpanel" aria-labelledby="pills-profile-tab_kosmetologia_1">
-								
-								<h3 class="text-center">Эстетическая</h3>
-								<p class="text-center mb-5">*Имеются противопоказания. Консультация врача обязательна!</p>
-								<table class="table">
-									  <thead class="table table-hover table-sm table-borderless">
-										<tr>
-											<th scope="col"><strong>Наименование</strong></th>
-											<th scope="col"><strong>Описание</strong></th>
-											<th scope="col"><strong>Цена</strong></th>
-										</tr>
-									  </thead>
-									 <tbody>
-										<tr>
-										  <td>Атравматическая чистка лица Holyland</td>
-										  <td>-</td>
-											<td><strong>5200 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Комплексная комбинированная чистка лица</td>
-										  <td>Демакияж, очищение кожина на аппарате с использованием косметики,скраб, ручная чистка, успокаивающие маски и крем</td>
-											<td><strong>3950 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>RESULTIME by Colin Paris (Франция)</td>
-										  <td>Уход базовый косметический (1 час)</td>
-											<td><strong>3200 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>RESULTIME by Colin Paris (Франция)</td>
-										  <td>Уход базовый косметический Colin Anti-age</td>
-											<td><strong>3900 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>RESULTIME by Colin Paris (Франция)</td>
-										  <td>Уход базовый с альго-маской</td>
-											<td><strong>3600 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>RESULTIME by Colin Paris (Франция)</td>
-										  <td>Гигиеническая чистка лица (1.5 часа)</td>
-											<td><strong>3100 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>RESULTIME by Colin Paris (Франция)</td>
-										  <td>Чистка лица локальная</td>
-											<td><strong>1000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>RESULTIME by Colin Paris (Франция)</td>
-										  <td>Маска по типу кожи</td>
-											<td><strong>1300 - 1700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>RESULTIME by Colin Paris (Франция)</td>
-										  <td>Маска альгинатная</td>
-											<td><strong>2000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>RESULTIME by Colin Paris (Франция)</td>
-										  <td>Коллагеновый лист</td>
-											<td><strong>2400 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>RESULTIME by Colin Paris (Франция)</td>
-										  <td>Нанесение сыворотки</td>
-											<td><strong>400 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>RESULTIME by Colin Paris (Франция)</td>
-										  <td>Уход за жирной кодей (1 час)</td>
-											<td><strong>2400 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Bioline-Jato (Италия)</td>
-										  <td>Очищающая процедура, уход базовый косметический (1 час)</td>
-											<td><strong>3900 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Bioline-Jato (Италия)</td>
-										  <td>Процедура (увлажнения) "AQUA+"</td>
-											<td><strong>4100 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Bioline-Jato (Италия)</td>
-										  <td>Процедура (чувствительная кожа) "DOLCE+"</td>
-											<td><strong>4200 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Bioline-Jato (Италия)</td>
-										  <td>Процедура (зрелая кожа) "VITA+"</td>
-											<td><strong>4800 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Bioline-Jato (Италия)</td>
-										  <td>Процедура (жирная кожа) "PURA+"</td>
-											<td><strong>4900 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Премиальный уход за лицом</td>
-										  <td>Программа "DESENSE COUPEROSE" 1/5 процедур (для кожи склоной к куперозу)</td>
-											<td><strong>6700/22600 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Премиальный уход за лицом</td>
-										  <td>Программа последовательного обновления кожи с АНА (глубокое обновление)</td>
-											<td><strong>4500/20500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Премиальный уход за лицом</td>
-										  <td>Программа последовательного обновления кожи с PHA - AH (отшелушевание, отбеливание кожи)</td>
-											<td><strong>4600/21500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Премиальный уход за лицом</td>
-										  <td>Процедура "REVEILLANCE" (глобальная антиоксидная защита, реструктиризация,ьревитализация)</td>
-											<td><strong>5600/23700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Премиальный уход за лицом</td>
-										  <td>Процедура "LIFTING CODE" (мгновенное омоложение, лифтинг эффект, эффект заполнения морщин)</td>
-											<td><strong>7600/27000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Премиальный уход за лицом</td>
-										  <td>Процедура "AG3 BEAUTY SECRET" (глобальный омолаживающий уход на основе энергии ионов гексапептидов и стволовых клеток)</td>
-											<td><strong>7600/27000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Премиальный уход за лицом</td>
-										  <td>Процедура "SEDUCTAGE 3D" (глобальное омолаживающие 3D воздействие)</td>
-											<td><strong>8700/27450 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Премиальный уход за лицом</td>
-										  <td>Процедура "DETAILS OF BEAUTY" (растительные стволовые клетки в омолаживающем уходе за кожей глаз и губ)</td>
-											<td><strong>3970/12000 руб.</strong></td>
-										</tr>
-									</tbody>
-								</table>
-								
-									<div class="row d-flex justify-content-center text-center">
-											<a href="sign_up.html"><button class="btn btn-outline-black waves-effect waves-light mb-5">Записаться</button></a>
+								<div class="row">
+									<div class="col">
+										Программа "DESENSE COUPEROSE" 1/5 процедур (для кожи склонной к куперозу)
 									</div>
-								
-							</div>
+									<div class="col">
+										<strong>6700/22600 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Программа последовательного обновления с AHA (глубокое обновление)
+									</div>
+									<div class="col">
+										<strong>4500/20500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Программа последовательного обновления с PHA - AHA (отшелушивание, отбеливание кожи)
+									</div>
+									<div class="col">
+										<strong>4600/21500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Процедура "REVEILLANCE" (глобальное антиоксидантная защита, реструктуризация)
+									</div>
+									<div class="col">
+										<strong>5600/23700 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Процедура "LIFTING CODE" (мгновенное омоложение, лифтинг эффект, эффект заполнения морщин)
+									</div>
+									<div class="col">
+										<strong>7600/27000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Процедура "AG3 BEAUTY" (глобальный омолаживающий уход на основе энергии ионов гексапептидов и стволовых клеток)
+									</div>
+									<div class="col">
+										<strong>7600/27000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Процедура "SEDUCTAGE 3D" (глобальное омолаживающее 3D воздействие)
+									</div>
+									<div class="col">
+										<strong>8700/27540 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Процедура "DETAILS OF BEAUTY" (растительное стволовые клетки в омолаживающем уходе за кожей глаз и куб)
+									</div>
+									<div class="col">
+										<strong>3970/12000 руб.</strong>
+									</div>
+								</div>
 							
-							<div class="tab-pane fade show active" id="pills-contact_kosmetologia_1" role="tabpanel" aria-labelledby="pills-contact-tab_kosmetologia_1">
-								
-								<h3 class="text-center">Инъекционная</h3>
-								<p class="text-center mb-5">*Имеются противопоказания. Консультация врача обязательна!</p>
-								<table class="table">
-									  <thead class="table table-hover table-sm table-borderless">
-										<tr>
-											<th scope="col"><strong>Наименование</strong></th>
-											<th scope="col"><strong>Описание</strong></th>
-											<th scope="col"><strong>Цена</strong></th>
-										</tr>
-									  </thead>
-									 <tbody>
-										<tr>
-										  <td>Ботулинотерапия (цена за 1 ед.)</td>
-										  <td>Botox</td>
-											<td><strong>420 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Ботулинотерапия (цена за 1 ед.)</td>
-										  <td>Dysport</td>
-											<td><strong>180 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Profhilo</td>
-											<td><strong>20000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Juvederm Hydrate</td>
-											<td><strong>15000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Juvederm - Volite</td>
-											<td><strong>18000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Juvederm Volift</td>
-											<td><strong>16000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Juvederm Volume</td>
-											<td><strong>16000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Restylane Vital</td>
-											<td><strong>9900 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Princess Rich</td>
-											<td><strong>7900 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Teosyal Meso</td>
-											<td><strong>7900 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Teosyal Redensity</td>
-											<td><strong>10400 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Jalurpo</td>
-											<td><strong>9850 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Гиалрипайер 02</td>
-											<td><strong>12000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Гиалрипайер 04</td>
-											<td><strong>12900 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Биоревитализация (цена за 1 шприц)</td>
-										  <td>Гиалрипайер 08</td>
-											<td><strong>13000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Мезотерапия</td>
-										  <td>Гиалрипайер 06М</td>
-											<td><strong>2500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Мезотерапия</td>
-										  <td>Гиалрипайер 07М</td>
-											<td><strong>3200 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Мезотерапия</td>
-										  <td>Гиалрипайер 08М</td>
-											<td><strong>3600 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Мезотерапия</td>
-										  <td>Гиалрипайер 10М</td>
-											<td><strong>4000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Мезотерапия</td>
-										  <td>CURACEN (Курасен) плацентарная биоревитализация - 1 шприц</td>
-											<td><strong>6500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Мезотерапия</td>
-										  <td>LAENNEC (Лаеннек) плацентарная биоревитализация - 1 шприц</td>
-											<td><strong>3000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Мезотерапия</td>
-										  <td>Melsmon(Мелсмон) плацентарная биоревитализация - 1 шприц</td>
-											<td><strong>4500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Нитевой лифтинг (цена за 1шт.)</td>
-										  <td>Нитевая подтяжка нитями Silhouette Soft c конусами (производство США) - 1 нить (полипропиленовые)</td>
-											<td><strong>23000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Нитевой лифтинг (цена за 1шт.)</td>
-										  <td>Нитевая подтяжка нитями Silhouette lift c конусами (производство США) - 1 нить (полипропиленовые)</td>
-											<td><strong>36500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Нитевой лифтинг (цена за 1шт.)</td>
-										  <td>Нитевая подтяжка шеи с использование нитей Silhouette lift 1 уп. (полипропиленовые)</td>
-											<td><strong>38500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Нитевой лифтинг (цена за 1шт.)</td>
-										  <td>Нити Aptos Зона 1 / область бровей (производство Россия)</td>
-											<td><strong>48000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Нитевой лифтинг (цена за 1шт.)</td>
-										  <td>Нити Aptos Зона 2 / щечно-скуловая область (производство Россия)</td>
-											<td><strong>52500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Нитевой лифтинг (цена за 1шт.)</td>
-										  <td>Нити Aptos Зона 3 / область углов рта (10 шт.) (производство Россия)</td>
-											<td><strong>46700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Нитевой лифтинг (цена за 1шт.)</td>
-										  <td>Нити Aptos Зона 4 / область брылей (производство Россия)</td>
-											<td><strong>48000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Нитевой лифтинг (цена за 1шт.)</td>
-										  <td>Нити Aptos Зона 5 / подчелюстная, частично шейная область (производство Россия)</td>
-											<td><strong>48000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Нитевой лифтинг (цена за 1шт.)</td>
-										  <td>Нити Aptos Зона 6 / область шеи (производство Россия)</td>
-											<td><strong>64000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика глаз</td>
-										  <td>Биоревитализация Рестилайн Витал 1,0 мл</td>
-											<td><strong>12500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика глаз</td>
-										  <td>Juvederm Volbella - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>18700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика глаз</td>
-										  <td>Juvederm Volift - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>18700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика глаз</td>
-										  <td>Surgiderm 18 - 0.8 мл (эффект 12 месяцев)</td>
-											<td><strong>12500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика глаз</td>
-										  <td>Perfecta Derm Fine Lines 0.5 мл (эффект 4 - 6 месяцев)</td>
-											<td><strong>15000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика глаз</td>
-										  <td>Teosyal Redensity 2 - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>22000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика губ</td>
-										  <td>Juvederm Volift - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>18700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика губ</td>
-										  <td>Juvederm Volbella - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>18700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика губ</td>
-										  <td>Juvederm Ultra 3 - 0.8 мл (эффект 12 месяцев)</td>
-											<td><strong>16500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика губ</td>
-										  <td>Juvederm Ultra 4 - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>17500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика губ</td>
-										  <td>Juvederm Ultra smile - 0.55 мл (эффект 12 месяцев)</td>
-											<td><strong>12500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика губ</td>
-										  <td>Surgiderm  30 XP - 0.8 мл (эффект 12 месяцев)</td>
-											<td><strong>16250 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика губ</td>
-										  <td>Perfecta Derm Deep - 1 мл (эффект 8 - 12 месяцев)</td>
-											<td><strong>21250 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика ногубных складок</td>
-										  <td>Juvederm Volbella - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>18700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика ногубных складок</td>
-										  <td>Juvederm Volift - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>18700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика ногубных складок</td>
-										  <td>Juvederm Voluma - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>18700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика ногубных складок</td>
-										  <td>Juvederm Ultra 3 - 0.8 мл (эффект 12 месяцев)</td>
-											<td><strong>16500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика ногубных складок</td>
-										  <td>Juvederm Ultra 4 - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>17500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика ногубных складок</td>
-										  <td>Surgiderm 30 - 0.8 мл (эффект 12 месяцев)</td>
-											<td><strong>16250 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика ногубных складок</td>
-										  <td>Glytone 3 - 1 мл</td>
-											<td><strong>20000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика ногубных складок</td>
-										  <td>Perfecta Derm Deep - 1 мл (эффект 8 - 12 месяцев)</td>
-											<td><strong>21250 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика лица</td>
-										  <td>Juvederm Voluma - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>18700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика лица</td>
-										  <td>Juvederm Volbella - 1 мл (эффект 12 месяцев)</td>
-											<td><strong>18700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика лица</td>
-										  <td>Glytone 2 - 1 мл</td>
-											<td><strong>18700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Контурная пластика лица</td>
-										  <td>Perfecta Derm Subskin 3 мл (эффект 12 - 18 месяцев)</td>
-											<td><strong>45000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Лечение гипернидроза ботоксом</td>
-										  <td>-</td>
-											<td><strong>32000 руб.</strong></td>
-										</tr>
-									</tbody>
-								</table>
-								
-									<div class="row d-flex justify-content-center text-center">
-											<a href="sign_up.html"><button class="btn btn-outline-black waves-effect waves-light mb-5">Записаться</button></a>
-									</div>
-								
-							</div>
+						  </div>
+						</div>
+
+					  </div>		  
+					  
+				  </div>
+				  <!-- Panel 2 -->
+				  <!-- Panel 3 -->
+				  <div class="tab-pane fade" id="panel29" role="tabpanel">
+					<h5 class="my-2 h5">Инъекционая</h5>
+					<p class="text-center">*Имеются противопоказания. Консультация врача обязательна!</p>
+					
+					<div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading16">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse16"
+							aria-expanded="false" aria-controls="collapse16">
+							<p class="mb-0 black-text">
+							  Ботулинотерапия (цена за 1 Ед.) <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse16" class="collapse" role="tabpanel" aria-labelledby="heading16" data-parent="#accordionEx1">
+						  <div class="card-body">
 							
-							<div class="tab-pane fade show active" id="pills-kosmetologia_kosmetologia_1" role="tabpanel" aria-labelledby="pills-kosmetologia-tab_kosmetologia_1">
-								
-								<h3 class="text-center">Аппаратная</h3>
-								<p class="text-center mb-5">*Имеются противопоказания. Консультация врача обязательна!</p>
-								<table class="table">
-									  <thead class="table table-hover table-sm table-borderless">
-										<tr>
-											<th scope="col"><strong>Наименование</strong></th>
-											<th scope="col"><strong>Описание</strong></th>
-											<th scope="col"><strong>Цена</strong></th>
-										</tr>
-									  </thead>
-									 <tbody>
-										<tr>
-										  <td>Ультразвуковая чистка лица</td>
-										  <td>-</td>
-											<td><strong>3000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Процедура ультразвукого пилинга лица</td>
-										  <td>Dysport</td>
-											<td><strong>3800 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Процедура ультразвукого пилинга лица, шеи, декольте</td>
-										  <td>-</td>
-											<td><strong>3800 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Электропорация или безигольная мезотерапия</td>
-										  <td>Безинекционная мезотерапия</td>
-											<td><strong>3200 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Микротоковая терапия / Био-лифтинг</td>
-										  <td>Лицо</td>
-											<td><strong>2500 руб./сеанс</strong></td>
-										</tr>
-										<tr>
-										  <td>Микротоковая терапия / Био-лифтинг</td>
-										  <td>Лицо + шея</td>
-											<td><strong>3900 руб./сеанс</strong></td>
-										</tr>
-										<tr>
-										  <td>Микротоковая терапия / Био-лифтинг</td>
-										  <td>Области вокруг глаз</td>
-											<td><strong>1000 руб./сеанс</strong></td>
-										</tr>
-										<tr>
-										  <td>Микродермабразия (алмазная дермабразия; алмазный пилинг; 30 имн.)</td>
-										  <td>Область лица</td>
-											<td><strong>3100 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Микродермабразия (алмазная дермабразия; алмазный пилинг; 30 имн.)</td>
-										  <td>Область лица и шеи</td>
-											<td><strong>3900 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Микродермабразия (алмазная дермабразия; алмазный пилинг; 30 имн.)</td>
-										  <td>Лицо, шея и область декольте</td>
-											<td><strong>4200 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Микродермабразия (алмазная дермабразия; алмазный пилинг; 30 имн.)</td>
-										  <td>Спина</td>
-											<td><strong>4000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Микродермабразия (алмазная дермабразия; алмазный пилинг; 30 имн.)</td>
-										  <td>Руки (кисти)</td>
-											<td><strong>2200 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Микродермабразия (алмазная дермабразия; алмазный пилинг; 30 имн.)</td>
-										  <td>Рубцов, шрамов 1 кв. см.</td>
-											<td><strong>500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Хромотерапия</td>
-										  <td>-</td>
-											<td><strong>3100 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Криотерапия</td>
-										  <td>(Тепло/Холод) при включении в процедуру по лицу</td>
-											<td><strong>600 руб.</strong></td>
-										</tr>
-									</tbody>
-								</table>
-								
-									<div class="row d-flex justify-content-center text-center">
-											<a href="sign_up.html"><button class="btn btn-outline-black waves-effect waves-light mb-5">Записаться</button></a>
+								<div class="row">
+									<div class="col">
+										Botox
 									</div>
-								
-								<h4 class="text-center mt-3 mb-3">Биопротон терапия</h4>
-								<table class="table">
-								<thead class="table table-hover table-sm table-borderless">
-										<tr>
-											<th scope="col"><strong>Наименование</strong></th>
-											<th scope="col"><strong>Описание</strong></th>
-											<th scope="col"><strong>Цена</strong></th>
-										</tr>
-									  </thead>
-									 <tbody>
-										<tr>
-										  <td>В ревматологии</td>
-										  <td>Снятие боли, уменьшение ее интенсивности (1 сеанс)</td>
-											<td><strong>1500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>В ревматологии</td>
-										  <td>Снятие боли, уменьшение ее интенсивности (10 сеансов)</td>
-											<td><strong>12000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>В косметологии</td>
-										  <td>Улучшение кроснобжения тканей, устранение отеков, ускорение процессов регенерации и заживление ран, омоложение кожи (1 сеанс)</td>
-											<td><strong>1000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>В косметологии</td>
-										  <td>Улучшение кроснобжения тканей, устранение отеков, ускорение процессов регенерации и заживление ран, омоложение кожи (10 сеанс)</td>
-											<td><strong>9000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Восстоновительная медицина</td>
-										  <td>Заживление кожи после пластической операции, эффективное сращивание тканей после переломов, снятие отеков и синяков (1 сеанс)</td>
-											<td><strong>1500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Восстоновительная медицина</td>
-										  <td>Заживление кожи после пластической операции, эффективное сращивание тканей после переломов, снятие отеков и синяков (10 сеанс)</td>
-											<td><strong>12000 руб.</strong></td>
-										</tr>
-									</tbody>
-								</table>
-								
-									<div class="row d-flex justify-content-center text-center">
-											<a href="sign_up.html"><button class="btn btn-outline-black waves-effect waves-light mb-5">Записаться</button></a>
+									<div class="col">
+										<strong>420 руб.</strong>
 									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Dysport
+									</div>
+									<div class="col">
+										<strong>180 руб.</strong>
+									</div>
+								</div>
 								
-							</div>
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading17">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse17"
+							aria-expanded="false" aria-controls="collapse17">
+							<p class="mb-0 black-text">
+							  Биоревитализация (цена за 1 шприц) <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse17" class="collapse" role="tabpanel" aria-labelledby="heading17" data-parent="#accordionEx1">
+						  <div class="card-body">
 							
-							<div class="tab-pane fade show active" id="pills-depilyac_kosmetologia_1" role="tabpanel" aria-labelledby="pills-depilyac-tab_kosmetologia_1">
-								
-								<h3 class="text-center">Терапевтическая</h3>
-								<p class="text-center mb-5">*Имеются противопоказания. Консультация врача обязательна!</p>
-								<table class="table">
-									  <thead class="table table-hover table-sm table-borderless">
-										<tr>
-											<th scope="col"><strong>Наименование</strong></th>
-											<th scope="col"><strong>Описание</strong></th>
-											<th scope="col"><strong>Цена</strong></th>
-										</tr>
-									  </thead>
-									 <tbody>
-										<tr>
-										  <td>Пилинги (Миндальный, молочный, гликолевый, салициловый, пировиноградный)</td>
-										  <td>Лицо</td>
-											<td><strong>2500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Пилинги (Миндальный, молочный, гликолевый, салициловый, пировиноградный)</td>
-										  <td>Лицо + шея</td>
-											<td><strong>3000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Пилинги (Миндальный, молочный, гликолевый, салициловый, пировиноградный)</td>
-										  <td>Лицо + шея + декольте</td>
-											<td><strong>3500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Пилинги (Миндальный, молочный, гликолевый, салициловый, пировиноградный)</td>
-										  <td>Спина</td>
-											<td><strong>4000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>"Glykopeel" (Filogra, Франция), "Mediccontropeel" (70%)</td>
-										  <td>Лицо</td>
-											<td><strong>3500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>"Glykopeel" (Filogra, Франция), "Mediccontropeel" (70%)</td>
-										  <td>Лицо + шея</td>
-											<td><strong>4000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>"Glykopeel" (Filogra, Франция), "Mediccontropeel" (70%)</td>
-										  <td>Лицо + шея + декольте</td>
-											<td><strong>4500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>"Glykopeel" (Filogra, Франция), "Mediccontropeel" (70%)</td>
-										  <td>Спина</td>
-											<td><strong>5000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Средний пилинг Джесснера, Голливудский (желтый) "Mediccontrolpeel Mcp"</td>
-										  <td>Лицо</td>
-											<td><strong>6000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Средний пилинг Джесснера, Голливудский (желтый) "Mediccontrolpeel Mcp"</td>
-										  <td>Лицо + шея</td>
-											<td><strong>6500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Средний пилинг Джесснера, Голливудский (желтый) "Mediccontrolpeel Mcp"</td>
-										  <td>Лицо + шея + декольте</td>
-											<td><strong>7000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Сочетанный срединный (Джесснера + Голливудский) "Mediccontrolpeel Mcp"</td>
-										  <td>Лицо</td>
-											<td><strong>7000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Сочетанный срединный (Джесснера + Голливудский) "Mediccontrolpeel Mcp"</td>
-										  <td>Лицо + шея</td>
-											<td><strong>7500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Сочетанный срединный (Джесснера + Голливудский) "Mediccontrolpeel Mcp"</td>
-										  <td>Лицо + шея + декольте</td>
-											<td><strong>8000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Химический пилинг 25%</td>
-											<td><strong>800 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Химический пилинг 50%</td>
-											<td><strong>1000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг TCA поверхностный (лицо)</td>
-											<td><strong>7500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг TCA поверхностный (лицо + шея)</td>
-											<td><strong>10700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг TCA поверхностный (лицо + шея + декольте)</td>
-											<td><strong>14700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг TCA средний (лицо)</td>
-											<td><strong>11800 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг АБР окклюзив (веки)</td>
-											<td><strong>3630 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг АБР окклюзив (лицо)</td>
-											<td><strong>5170 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг АБР окклюзив (лицо + шея)</td>
-											<td><strong>7040 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг АБР окклюзив (лицо + шея + декольте)</td>
-											<td><strong>12650 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг АБР премиум (лицо)</td>
-											<td><strong>3900 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг АБР премиум (лицо + шея)</td>
-											<td><strong>5170 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Срединный химический пилинг АБР премиум (лицо + шея + декольте)</td>
-											<td><strong>7480 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Химический пилинг Таймлесс Пил (желтый пилинг)(лицо + шея)</td>
-											<td><strong>7000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Химический пилинг Таймлесс Пил (желтый пилинг)(глаза)</td>
-											<td><strong>4000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Химический пилинг Пурити Пил</td>
-											<td><strong>3600 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Миндальный пилинг 40% (гелевый)</td>
-											<td><strong>2000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Holy Land</td>
-										  <td>Химический пилинг ДМАЭ (миндальный)(процедура)</td>
-											<td><strong>3200 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Дарсонвализация</td>
-										  <td>Лицо</td>
-											<td><strong>500 руб.</strong></td>
-										</tr>
-									</tbody>
-								</table>
-								
-									<div class="row d-flex justify-content-center text-center">
-											<a href="sign_up.html"><button class="btn btn-outline-black waves-effect waves-light mb-5">Записаться</button></a>
+								<div class="row">
+									<div class="col">
+										Profhilo 
 									</div>
-								
-							</div>
+									<div class="col">
+										<strong>20000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm Hydrate
+									</div>
+									<div class="col">
+										<strong>15000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm - Volite
+									</div>
+									<div class="col">
+										<strong>18000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm Volift
+									</div>
+									<div class="col">
+										<strong>16000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm Volume
+									</div>
+									<div class="col">
+										<strong>16000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Restylane Vital
+									</div>
+									<div class="col">
+										<strong>9900 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Princess Rich
+									</div>
+									<div class="col">
+										<strong>7900 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Teosyal Meso
+									</div>
+									<div class="col">
+										<strong>7900 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Teosyal Redensity
+									</div>
+									<div class="col">
+										<strong>10400 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Jalupro
+									</div>
+									<div class="col">
+										<strong>9850 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Гиалрипайер 02
+									</div>
+									<div class="col">
+										<strong>12000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Гиалрипайер 04
+									</div>
+									<div class="col">
+										<strong>12900 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Гиалрипайер 08
+									</div>
+									<div class="col">
+										<strong>13000 руб.</strong>
+									</div>
+								</div>
 							
-							<div class="tab-pane fade show active" id="pills-massage_kosmetologia_1" role="tabpanel" aria-labelledby="pills-massage-tab_kosmetologia_1">
-								
-								<h3 class="text-center">Перманентный макияж</h3>
-								<p class="text-center mb-5">*Имеются противопоказания. Консультация врача обязательна!</p>
-								<table class="table">
-									  <thead class="table table-hover table-sm table-borderless">
-										<tr>
-											<th scope="col"><strong>Наименование</strong></th>
-											<th scope="col"><strong>Описание</strong></th>
-											<th scope="col"><strong>Цена</strong></th>
-										</tr>
-									  </thead>
-									 <tbody>
-										<tr>
-										  <td>Макияж бровей</td>
-										  <td>Растушевка</td>
-											<td><strong>8000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж бровей</td>
-										  <td>Плотная растушевка</td>
-											<td><strong>8000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж бровей</td>
-										  <td>Эффект натуральных волос</td>
-											<td><strong>8000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж бровей</td>
-										  <td>Растушевка + волоски</td>
-											<td><strong>8000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж бровей</td>
-										  <td>Тень</td>
-											<td><strong>8000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж век</td>
-										  <td>Стрелка классическая, с растушевкой, прикорневая, цветная</td>
-											<td><strong>8000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж век</td>
-										  <td>Стрелка гламурная</td>
-											<td><strong>10000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж век</td>
-										  <td>Межресничное пространство</td>
-											<td><strong>8000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж век</td>
-										  <td>Тени</td>
-											<td><strong>от 10000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж век</td>
-										  <td>Нижняя стрелка</td>
-											<td><strong>3000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж век</td>
-										  <td>Верхняя классическая + нижняя стрелка</td>
-											<td><strong>10000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж губ</td>
-										  <td>Контур с растушевкой</td>
-											<td><strong>8000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж губ</td>
-										  <td>Объем 3D</td>
-											<td><strong>10000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Макияж губ</td>
-										  <td>Плотное заполнение цветом</td>
-											<td><strong>10000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Исправление некачественного макияжа</td>
-										  <td>Брови, веки, губы</td>
-											<td><strong>10000 - 12000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Исправление некачественного макияжа</td>
-										  <td>Коррекция после</td>
-											<td><strong>2000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Коррекция (дополнительная процедура)</td>
-										  <td>Коррекция - до 2 месяцев после процедуры</td>
-											<td><strong>2000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Коррекция (дополнительная процедура)</td>
-										  <td>Коррекция - от 2 месяцев после процедуры</td>
-											<td><strong>4000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Коррекция (дополнительная процедура)</td>
-										  <td>Обновление цвета (рефреш) через 1 - 2 года без отрисовки новой формы</td>
-											<td><strong>5000 руб.</strong></td>
-										</tr>
-									</tbody>
-								</table>
-								
-									<div class="row d-flex justify-content-center text-center">
-											<a href="sign_up.html"><button class="btn btn-outline-black waves-effect waves-light mb-5">Записаться</button></a>
-									</div>
-								
-							</div>
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading18">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse18"
+							aria-expanded="false" aria-controls="collapse18">
+							<p class="mb-0 black-text">
+							  Мезотерапия <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse18" class="collapse" role="tabpanel" aria-labelledby="heading18" data-parent="#accordionEx1">
+						  <div class="card-body">
 							
-							<div class="tab-pane fade show active" id="pills-sun_kosmetologia_1" role="tabpanel" aria-labelledby="pills-sun-tab_kosmetologia_1">
-								
-								<h3 class="text-center">Ресницы и брови</h3>
-								<p class="text-center mb-5">*Имеются противопоказания. Консультация врача обязательна!</p>
-								<table class="table">
-									  <thead class="table table-hover table-sm table-borderless">
-										<tr>
-											<th scope="col"><strong>Наименование</strong></th>
-											<th scope="col"><strong>Описание</strong></th>
-											<th scope="col"><strong>Цена</strong></th>
-										</tr>
-									  </thead>
-									 <tbody>
-										<tr>
-										  <td>Макияж бровей</td>
-										  <td>Растушевка</td>
-											<td><strong>8000 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Коррекция бровей</td>
-										  <td>-</td>
-											<td><strong>700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Окрашивание бровей</td>
-										  <td>-</td>
-											<td><strong>700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Окрашивание ресниц</td>
-										  <td>-</td>
-											<td><strong>700 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Наращивание ресниц</td>
-										  <td>(пореснично)</td>
-											<td><strong>3500 - 6500 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Наращивание пучка</td>
-										  <td>-</td>
-											<td><strong>350 руб.</strong></td>
-										</tr>
-										<tr>
-										  <td>Снятие нарощенных ресниц</td>
-										  <td>-</td>
-											<td><strong>800 руб.</strong></td>
-										</tr>
-									</tbody>
-								</table>
-								
-									<div class="row d-flex justify-content-center text-center">
-											<a href="sign_up.html"><button class="btn btn-outline-black waves-effect waves-light mb-5">Записаться</button></a>
+								<div class="row">
+									<div class="col">
+										Гиалрипайер 06М
 									</div>
+									<div class="col">
+										<strong>2500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Гиалрипайер 07М
+									</div>
+									<div class="col">
+										<strong>3200 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Гиалрипайер 08М
+									</div>
+									<div class="col">
+										<strong>3600 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Гиалрипайер 10М
+									</div>
+									<div class="col">
+										<strong>4000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										CURACEN (Курасен) плацентарная биоревитализация - 1 шприц
+									</div>
+									<div class="col">
+										<strong>6500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										LAENNEC (Лаеннек) плацентарная биоревитализация - 1 шприц
+									</div>
+									<div class="col">
+										<strong>3000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Melsmon (Мелсмон) плацентарная биоревитализация - 1 шприц
+									</div>
+									<div class="col">
+										<strong>4500 руб.</strong>
+									</div>
+								</div>
 								
-							</div>
-		</div>
-		
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading19">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse19"
+							aria-expanded="false" aria-controls="collapse19">
+							<p class="mb-0 black-text">
+							  Нитевой лифтинг (цена за 1 шт) <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse19" class="collapse" role="tabpanel" aria-labelledby="heading19" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Нитевая подтяжка нитями Silhouette с конусами (производство США) - 1 нить (полипропиленовые)
+									</div>
+									<div class="col">
+										<strong>23000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Нитевая подтяжка нитями Silhouette lift с конусами (производство США) - 1 нить (полипропиленовые)
+									</div>
+									<div class="col">
+										<strong>36500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Нитевая подтяжка шеи с использованием нитей Silhouette lift 1 уп. (полипропиленовые) 
+									</div>
+									<div class="col">
+										<strong>38500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Нити Aptos Зона 1 / область бровей (производство Россия)
+									</div>
+									<div class="col">
+										<strong>48000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Нити Aptos Зона 2 / щечно-скуловая область (производство Россия)
+									</div>
+									<div class="col">
+										<strong>52500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Нити Aptos Зона 3 / область углов рта (10 шт) (производство Россия)
+									</div>
+									<div class="col">
+										<strong>46700 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Нити Aptos Зона 4 / область брылей (производство Россия)
+									</div>
+									<div class="col">
+										<strong>48000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Нити Aptos Зона 5 / подчелюстная, частично шейная область (производство Россия)
+									</div>
+									<div class="col">
+										<strong>48000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Нити Aptos Зона 6 / область шеи (производство Россия)
+									</div>
+									<div class="col">
+										<strong>64000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading20">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse20"
+							aria-expanded="false" aria-controls="collapse20">
+							<p class="mb-0 black-text">
+							  Контурная пластика глаз <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse20" class="collapse" role="tabpanel" aria-labelledby="heading20" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Биоревитализация Рестилайн Витал 1,0 мл
+									</div>
+									<div class="col">
+										<strong>12500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm Volbella - 1 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>18700 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm Volift - 1 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>18700 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Surgiderm 18 - 0.8 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>12500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Perfecta Derm Fine Lines 0.5 мл (эффект 4 - 6 месяцев)
+									</div>
+									<div class="col">
+										<strong>15000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Teosyal Redensity 2 - 1 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>22000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading21">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse21"
+							aria-expanded="false" aria-controls="collapse21">
+							<p class="mb-0 black-text">
+							  Контурная пластика губ <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse21" class="collapse" role="tabpanel" aria-labelledby="heading21" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Juvederm Volift - 1 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>18700 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm Volbella - 1 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>18700 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm Ultra 3 - 0.8 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>16500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm Ultra 4 - 1 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>17500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm Ultra smile - 0.55 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>16250 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Perfecta Derm Deep - 1 мл (эффект 8 - 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>21250 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading22">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse22"
+							aria-expanded="false" aria-controls="collapse22">
+							<p class="mb-0 black-text">
+							  Контурная пластика лица <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse22" class="collapse" role="tabpanel" aria-labelledby="heading22" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Juvederm Voluma - 1 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>18700 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Juvederm Volbella - 1 мл (эффект 12 месяцев)
+									</div>
+									<div class="col">
+										<strong>18700 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Glytone 2 - 1 мл
+									</div>
+									<div class="col">
+										<strong>18700 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Perfecta Derm Subskin 3 мл (эффект 12 - 18 месяцев)
+									</div>
+									<div class="col">
+										<strong>45000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div class="row">
+						<div class="col">
+							Лечение гипергидроза ботоксом
+						</div>
+						<div class="col">
+							<strong>32000 руб.</strong>
+						</div>
+				  </div>	
+					
+					
+				  </div>
+				  <!-- Panel 3 -->
+				  <!-- Panel 4 -->
+				  <div class="tab-pane fade" id="panel292" role="tabpanel">
+					<h5 class="my-2 h5">Аппаратная</h5>
+					<p class="text-center">*Имеются противопоказания. Консультация врача обязательна!</p>
+					
+					<div class="row">
+						<div class="col">
+							Ультразвуковая чистка лица
+						</div>
+						<div class="col">
+							<strong>3000 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Процедура ультразвукового пилинга лица
+						</div>
+						<div class="col">
+							<strong>3800 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Процедура ультразвукового пилинга лица, шеи, декольте
+						</div>
+						<div class="col">
+							<strong>4200 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Электропорация или безигольная мезотерапия (безинекционная мезотерапия)
+						</div>
+						<div class="col">
+							<strong>3200 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading23">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse23"
+							aria-expanded="false" aria-controls="collapse23">
+							<p class="mb-0 black-text">
+							  Микротоковая терапия/Био-лифтинг <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse23" class="collapse" role="tabpanel" aria-labelledby="heading23" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Микротоковая терапия лица
+									</div>
+									<div class="col">
+										<strong>2500 руб./сеанс</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Микротоковая терапия лицо + шея
+									</div>
+									<div class="col">
+										<strong>3900 руб./сеанс</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Микротоковая терапия области вокруг глаз
+									</div>
+									<div class="col">
+										<strong>1000 руб./сеанс</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading24">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse24"
+							aria-expanded="false" aria-controls="collapse24">
+							<p class="mb-0 black-text">
+							  Микродермабразия (алмазная дермабразия; алмазный пилинг; 30 мин.) <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse24" class="collapse" role="tabpanel" aria-labelledby="heading24" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Область лица
+									</div>
+									<div class="col">
+										<strong>3100 руб./сеанс</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Область лица и шеи
+									</div>
+									<div class="col">
+										<strong>3900 руб./сеанс</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Лицо, шея и обласьт декольте
+									</div>
+									<div class="col">
+										<strong>4200 руб./сеанс</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Спина
+									</div>
+									<div class="col">
+										<strong>4000 руб./сеанс</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Руки (кисти)
+									</div>
+									<div class="col">
+										<strong>2200 руб./сеанс</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Рубцов, шрамов 1кв. см
+									</div>
+									<div class="col">
+										<strong>500 руб./сеанс</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div class="row">
+				  	<div class="col">
+				  		Хромотерапия
+				  	</div>
+				  	<div class="col">
+				  		<strong>3800 руб.</strong>
+				  	</div>
+				  </div>
+				  <hr>
+				  <div class="row">
+				  	<div class="col">
+				  		Криотерапия («Тепло/Холод») при включении в процедуру по лицу
+				  	</div>
+				  	<div class="col">
+				  		<strong>600 руб.</strong>
+				  	</div>
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading25">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse25"
+							aria-expanded="false" aria-controls="collapse25">
+							<p class="mb-0 black-text">
+							  Биоптрон терапия <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse25" class="collapse" role="tabpanel" aria-labelledby="heading25" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										В ревматологии (снятие боли, уменьшение ее интенсивности)
+									</div>
+									<div class="col"></div>
+								</div>
+								<div class="row">
+									<div class="col">
+										1 сеанс
+									</div>
+									<div class="col">
+										<strong>1500 руб.</strong>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										Абонемент 10 сеансов
+									</div>
+									<div class="col">
+										<strong>12000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										В косметологии (улучшение кровоснабжения тканей, устранение отеков, ускорение процессов регенерации и заживление ран, омоложение кожи)
+									</div>
+									<div class="col"></div>
+								</div>
+								<div class="row">
+									<div class="col">
+										1 сеанс
+									</div>
+									<div class="col">
+										<strong>1000 руб.</strong>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										Абонемент 10 сеансов
+									</div>
+									<div class="col">
+										<strong>9000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Восстановительная медицина (заживление кожи после пластической операции, эффективное сращивание тканей после переломов, снятие отеков и синяков)
+									</div>
+									<div class="col"></div>
+								</div>
+								<div class="row">
+									<div class="col">
+										1 сеанс
+									</div>
+									<div class="col">
+										<strong>1500 руб.</strong>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										Абонемент 10 сеансов
+									</div>
+									<div class="col">
+										<strong>12000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+					
+				  </div>
+				  <!-- Panel 4 -->
+				  <!-- Panel 4 -->
+				  <div class="tab-pane fade" id="panel293" role="tabpanel">
+					<h5 class="my-2 h5">Терапевтическая</h5>
+					<p class="text-center">*Имеются противопоказания. Консультация врача обязательна!</p>
+					
+					<div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading26">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse26"
+							aria-expanded="false" aria-controls="collapse26">
+							<p class="mb-0 black-text">
+							  Пилинги (миндальный, молочный, гликолевый, салициловый, пировиноградный) <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse26" class="collapse" role="tabpanel" aria-labelledby="heading26" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Лицо
+									</div>
+									<div class="col">
+										<strong>2500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Лицо + шея
+									</div>
+									<div class="col">
+										<strong>3000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Лицо + шея + декольте
+									</div>
+									<div class="col">
+										<strong>3500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Спина
+									</div>
+									<div class="col">
+										<strong>4000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading27">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse27"
+							aria-expanded="false" aria-controls="collapse27">
+							<p class="mb-0 black-text">
+							  "Glykopeel" (Filorga, Франция), «Mediccontrolpeel Mcp», (70%) <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse27" class="collapse" role="tabpanel" aria-labelledby="heading27" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Лицо
+									</div>
+									<div class="col">
+										<strong>3500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Лицо + шея
+									</div>
+									<div class="col">
+										<strong>4000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Лицо + шея + декольте
+									</div>
+									<div class="col">
+										<strong>4500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Спина
+									</div>
+									<div class="col">
+										<strong>5000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading28">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse28"
+							aria-expanded="false" aria-controls="collapse28">
+							<p class="mb-0 black-text">
+							  Срединный пилинг Джесснера, Голливудский (желтый) «Mediccontrolpeel Mcp» <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse28" class="collapse" role="tabpanel" aria-labelledby="heading28" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Лицо
+									</div>
+									<div class="col">
+										<strong>6000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Лицо + шея
+									</div>
+									<div class="col">
+										<strong>6500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Лицо + шея + декольте
+									</div>
+									<div class="col">
+										<strong>7000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading29">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse29"
+							aria-expanded="false" aria-controls="collapse29">
+							<p class="mb-0 black-text">
+							  Сочетанный срединный (Джесснера + Голливудский) «Mediccontrolpeel Mcp» <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse29" class="collapse" role="tabpanel" aria-labelledby="heading29" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Лицо
+									</div>
+									<div class="col">
+										<strong>7000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Лицо + шея
+									</div>
+									<div class="col">
+										<strong>7500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Лицо + шея + декольте
+									</div>
+									<div class="col">
+										<strong>8000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading30">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse30"
+							aria-expanded="false" aria-controls="collapse30">
+							<p class="mb-0 black-text">
+							  Holy Land <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse30" class="collapse" role="tabpanel" aria-labelledby="heading30" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Химический пилинг 25%
+									</div>
+									<div class="col">
+										<strong>800 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Химический пилинг 50%
+									</div>
+									<div class="col">
+										<strong>1000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг TCA поверхностный (лицо)
+									</div>
+									<div class="col">
+										<strong>7500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг TCA поверхностный (лицо + шея)
+									</div>
+									<div class="col">
+										<strong>7500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг TCA поверхностный (лицо + шея + декольте)
+									</div>
+									<div class="col">
+										<strong>7500 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг TCA средний (лицо)
+									</div>
+									<div class="col">
+										<strong>11800 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг АБР окклюзив (веки)
+									</div>
+									<div class="col">
+										<strong>3630 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг АБР окклюзив (лицо)
+									</div>
+									<div class="col">
+										<strong>5170 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг АБР окклюзив (лицо + шея)
+									</div>
+									<div class="col">
+										<strong>7040 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг АБР окклюзив (лицо + шея + декольте)
+									</div>
+									<div class="col">
+										<strong>12650 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг АБР премиум (лицо)
+									</div>
+									<div class="col">
+										<strong>3900 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг АБР премиум (лицо + шея)
+									</div>
+									<div class="col">
+										<strong>5170 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Срединный химический пилинг АБР премиум (лицо + шея + декольте)
+									</div>
+									<div class="col">
+										<strong>7480 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Химический пилинг Таймлесс Пил (желтый пилинг) (лицо + шея)
+									</div>
+									<div class="col">
+										<strong>7000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Химический пилинг Таймлесс Пил (желтый пилинг) (глаза)
+									</div>
+									<div class="col">
+										<strong>4000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Химический пилинг Пурити Пил
+									</div>
+									<div class="col">
+										<strong>3600 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Миндальный пилинг 40% (гелевый)
+									</div>
+									<div class="col">
+										<strong>2000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Химический пилинг ДМАЭ (миндальный) (процедура)
+									</div>
+									<div class="col">
+										<strong>3200 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div class="row">
+				  	  <div class="col">
+				  		  Дарсонвализация (лицо)
+				  	  </div>
+				  	  <div class="col">
+				  		  <strong>500 руб.</strong>
+				  	  </div>
+				  </div>
+					
+				  </div>
+				  <!-- Panel 4 -->
+				  <!-- Panel 4 -->
+				  <div class="tab-pane fade" id="panel294" role="tabpanel">
+					<h5 class="my-3 h5">Перманентный макияж</h5>
+					<p class="text-center">*Имеются противопоказания. Консультация врача обязательна!</p>
+					
+					<div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading31">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse31"
+							aria-expanded="false" aria-controls="collapse31">
+							<p class="mb-0 black-text">
+							  Макияж бровей <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse31" class="collapse" role="tabpanel" aria-labelledby="heading31" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Растушевка
+									</div>
+									<div class="col">
+										<strong>8000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Плотная растушевка
+									</div>
+									<div class="col">
+										<strong>8000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Эффект натуральных волос
+									</div>
+									<div class="col">
+										<strong>8000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Растушевка + волоски
+									</div>
+									<div class="col">
+										<strong>8000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Тень
+									</div>
+									<div class="col">
+										<strong>8000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading32">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse32"
+							aria-expanded="false" aria-controls="collapse32">
+							<p class="mb-0 black-text">
+							  Макияж век <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse32" class="collapse" role="tabpanel" aria-labelledby="heading32" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Стрелка классическая, с растушевкой, прикорневая, цветная
+									</div>
+									<div class="col">
+										<strong>8000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Стрелка гламурная
+									</div>
+									<div class="col">
+										<strong>10000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Межресничное пространство
+									</div>
+									<div class="col">
+										<strong>8000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Тени
+									</div>
+									<div class="col">
+										<strong>от 10000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Нижняя стрелка
+									</div>
+									<div class="col">
+										<strong>3000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Верхняя классическая + нижняя стрелка
+									</div>
+									<div class="col">
+										<strong>10000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading33">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse33"
+							aria-expanded="false" aria-controls="collapse33">
+							<p class="mb-0 black-text">
+							  Макияж губ <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse33" class="collapse" role="tabpanel" aria-labelledby="heading33" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Контур с растушевкой
+									</div>
+									<div class="col">
+										<strong>8000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Объем 3D
+									</div>
+									<div class="col">
+										<strong>10000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Плотное заполнение цветом
+									</div>
+									<div class="col">
+										<strong>10000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading34">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse34"
+							aria-expanded="false" aria-controls="collapse34">
+							<p class="mb-0 black-text">
+							  Исправление некачественного макияжа <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse34" class="collapse" role="tabpanel" aria-labelledby="heading34" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Брови, веки, губы
+									</div>
+									<div class="col">
+										<strong>10000 - 12000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Коррекция после
+									</div>
+									<div class="col">
+										<strong>2000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  <hr>
+				  <div>
+
+						<!-- Card header -->
+						<div role="tab" id="heading35">
+						  <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapse35"
+							aria-expanded="false" aria-controls="collapse35">
+							<p class="mb-0 black-text">
+							  Исправление некачественного макияжа <i class="fas fa-angle-down rotate-icon"></i>
+							</p>
+						  </a>
+						</div>
+
+						<!-- Card body -->
+						<div id="collapse35" class="collapse" role="tabpanel" aria-labelledby="heading35" data-parent="#accordionEx1">
+						  <div class="card-body">
+							
+								<div class="row">
+									<div class="col">
+										Коррекция - до 2 месяцев после процедуры
+									</div>
+									<div class="col">
+										<strong>2000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Коррекция - от 2 месяцев после процедуры
+									</div>
+									<div class="col">
+										<strong>4000 руб.</strong>
+									</div>
+								</div>
+								<hr>
+								<div class="row">
+									<div class="col">
+										Обновление цвета (рефреш) через 1 - 2 года без отрисовки формы
+									</div>
+									<div class="col">
+										<strong>5000 руб.</strong>
+									</div>
+								</div>
+								
+						  </div>
+						</div>
+
+				  </div>
+				  
+					
+				  </div>
+				  <!-- Panel 4 -->
+				  <!-- Panel 4 -->
+				  <div class="tab-pane fade" id="panel295" role="tabpanel">
+					<h5 class="my-2 h5">Ресницы и брови</h5>
+					<p class="text-center">*Имеются противопоказания. Консультация врача обязательна!</p>
+					
+					<div class="row">
+						<div class="col">
+							Коррекция бровей
+						</div>
+						<div class="col">
+							<strong>700 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Окрашивание бровей
+						</div>
+						<div class="col">
+							<strong>700 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Окрашивание ресниц
+						</div>
+						<div class="col">
+							<strong>700 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Наращивание ресниц (пореснично)
+						</div>
+						<div class="col">
+							<strong>3500 - 6500 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Наращивание пучка
+						</div>
+						<div class="col">
+							<strong>350 руб.</strong>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col">
+							Снятие нарощенных ресниц
+						</div>
+						<div class="col">
+							<strong>800 руб.</strong>
+						</div>
+					</div>
+					
+					<p class="text-center mt-4 font-weight-bold">*Коррекция ресниц -50% от стоимости наращивания.</p>
+					
+				  </div>
+				  <!-- Panel 4 -->
+				</div>
+			  </div>
+			</div>
 				
+			
+			<div class="d-flex justify-content-center mt-5">				
+				<a href="#"><button class="btn btn-outline-black waves-effect waves-light animated fadeInUp">Записаться</button></a>
+			</div>
+					
 	</main>
 	
 		<!-- Footer -->
-	<footer class="page-footer font-small special-color-dark pt-4">
+	<footer class="page-footer font-small special-color-dark pt-4 mt-4">
 
 	  <!-- Footer Elements -->
 	  <div class="container">
@@ -1205,6 +2215,8 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  
+  <script type="text/javascript" src="js/shop.js"></script>
   	<script>
 		new WOW().init();
 	</script>
