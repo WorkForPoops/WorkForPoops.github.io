@@ -105,13 +105,3 @@ $('[data-toggle="popover_20"]').popover()
 });
 
 
-
-
-
-
-$(document).ready(function () {
-  $('.second-button').on('click', function () {
-
-    $('.animated-icon2').toggleClass('open');
-  });
-});

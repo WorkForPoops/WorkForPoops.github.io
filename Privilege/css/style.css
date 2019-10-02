@@ -2,6 +2,19 @@
 	height: 100vh;
 }
 
+.call_m{
+	border: 1px solid white;
+	padding: 10px;
+	top: -70px;
+}
+
+.call_a{
+	border: 1px solid white;
+	padding: 10px;
+	top: -70px;
+	position: 
+}
+
 .navbar-expand-lg{
 	transition: all ease 500ms;
 }
@@ -103,7 +116,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-
 #pc_v{
 	width: 100%;
 	position: relative;
@@ -126,6 +138,12 @@ h1, h2, h3, h4, h5, h6{
 	}
 	.block_m_v{
 		display: block;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.btn_pc{
+		display: none;
 	}
 }
 
@@ -423,13 +441,32 @@ strong{
 	HAIRCUT
 *****************/
 
-#intro_haircut{
+#intro_1{
+	background: url(../img/haircut_bg.jpg) no-repeat fixed top / cover;
 	height: 100vh;
-	background: url(../img/haircut_privilege.png) no-repeat center fixed / cover;
-	-webkit-background-size: cover;
-	background-size: cover;
 }
 
+.h_n_1{
+	color: red;
+}
+.h_n_2{
+	color: black;
+}
+
+
+/****************
+	MASSAZH
+*****************/
+
+.m_n_1{
+	color: red;
+}
+.m_n_2{
+	color: black;
+}
+.m_n_3{
+	color: black;
+}
 
 /****************
 	TRIHOLOGIA
@@ -446,26 +483,40 @@ strong{
 	KOSMETOLOGIA
 *****************/
 
-.header_kosmetologia{
-	height: 50%;
+.k_n_1{
+	color: red;
 }
-
-#intro_kosmetologia{
-	background: url(../img/kosmetologia_privilege.png) no-repeat fixed top / cover;
-	height: 100%
+.k_n_2{
+	color: black;
+}
+.k_n_3{
+	color: black
+}
+.k_n_4{
+	color: black;
+}
+.k_n_5{
+	color: black;
+}
+.k_n_6{
+	color: black;
+}
+.k_n_7{
+	color: black;
 }
 
 /*****************
 	NAILS
 *******************/
 
-.header_nails{
-	height: 50%;
+.n_n_1{
+	color: red;
 }
-
-#intro_nails{
-	background: url(../img/nails_privilege.png) no-repeat fixed top / cover;
-	height: 100%;
+.n_n_2{
+	color: black;
+}
+.n_n_3{
+	color: black;
 }
 
 /*******************
@@ -493,12 +544,12 @@ strong{
 	HAIRCUT MASTERS
 ***********************/
 
-#intro_1{
-	background: url(../img/haircut_bg.jpg) no-repeat fixed top / cover;
-	height: 100vh;
+
+
+
+.nav_pills{
+	color: red;
 }
-
-
 
 /* Hamburger */
 
