@@ -448,7 +448,15 @@ strong{
 *****************/
 
 #intro_1{
-	background: url(../img/haircut_bg.jpg) no-repeat fixed top / cover;
+	background: url(../img/haircut_bg.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
 	height: 100vh;
 }
 
