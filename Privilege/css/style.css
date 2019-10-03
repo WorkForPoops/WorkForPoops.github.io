@@ -534,7 +534,15 @@ strong{
 }
 
 .intro_depilyac{
-	background: url(../img/Depilyacia_privilege.png) no-repeat fixed top / cover;
+	background: url(../img/Depilyacia_privilege.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
 	height: 100%;
 }
 
