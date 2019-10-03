@@ -104,4 +104,11 @@ $(function () {
 $('[data-toggle="popover_20"]').popover()
 });
 
+//HAMBURGER
 
+$(document).ready(function () {
+  $('.second-button').on('click', function () {
+
+    $('.animated-icon2').toggleClass('open');
+  });
+});
