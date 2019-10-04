@@ -112,3 +112,6 @@ $(document).ready(function () {
     $('.animated-icon2').toggleClass('open');
   });
 });
+
+
+
