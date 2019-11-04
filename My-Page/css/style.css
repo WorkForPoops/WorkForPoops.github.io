@@ -7,9 +7,7 @@
 
 
 /* ==============================================================================================
-SED Innovations
-https://sed.am
-https://mkrtchyan.ga
+background
 ================================================================================================= */
 /*
 * {
@@ -239,6 +237,9 @@ h1, h2, h3, h4{
 	.kosmonavt{
 		display: none;
 	}
+	.kosm_t{
+		display: none;
+	}
 }
 
 @keyframes kosmonavt{
@@ -363,5 +364,161 @@ h1, h2, h3, h4{
 }
 
 .a_1:hover{
-	color: darkgray;
+	color: white;
+}
+
+
+/*THE LAB PAGE*/
+
+.lab_b{
+	background-color: #060f30;
+	transition: all ease 1s;
+}
+
+/* .a_2{
+	color: white;
+	font-size: 19px;
+}
+
+.a_2:hover{
+	color: #cb0032;
+} */
+
+
+.a_2 {
+    display: inline-block;
+    color: white;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+}
+.a_2:after {
+    background-color: white;
+		color: white;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.a_2:hover:after,
+.a_2:focus:after {
+    width: 100%;
+}
+
+
+
+.c-hamburger{
+	display: block;
+	position: absolute;
+	right: -66px;
+	top: 0;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 66px; /*96*/
+	height: 66px; /*96*/
+	font-size: 0;
+	box-shadow: none;
+	cursor: pointer;
+	border: none;
+
+}
+
+.c-hamburger:focus{
+	outline: none;
+}
+
+.c-hamburger span{
+	display: block;
+	position: absolute;
+	top: 29px; /*44*/
+	left: 12px; /*18*/
+	right: 12px; /*18*/
+	height: 3px; /*8*/
+	background: #fff;
+}
+
+.c-hamburger span::before, .c-hamburger span::after{
+	display: block;
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	content: "";
+}
+
+.c-hamburger span::before{
+	top: -20px;
+}
+
+.c-hamburger span::after{
+	bottom: -20px;
+}
+
+.c-hamburger-line{
+	background: #cb0032;
+}
+
+.c-hamburger-line span{
+	transition: background 0s 0.3s;
+}
+
+.c-hamburger-line span::before, .c-hamburger-line span::after{
+	transition-duration: 0.3s, 0.3s;
+	transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger-line span::before{
+	transition-property: top, transform;
+}
+
+.c-hamburger-line span::after{
+	transition-property: bottom, transform;
+}
+
+.c-hamburger-line.is-active{
+	background: green;
+}
+
+.c-hamburger-line.is-active span{
+	background: none;
+}
+
+.c-hamburger-line.is-active span::before{
+	top: 0;
+	transform: rotate(-45deg);
+}
+
+.c-hamburger-line.is-active span::after{
+	bottom: 0;
+	transform: rotate(45deg);
+	color: darkorange
+}
+
+.c-hamburger-line.is-active span::before, .c-hamburger-line.is-active span::after{
+	transition-delay: 0s, 0.3s;
+}
+
+#menu{
+	width: 134px;
+	margin-left: -134px;
+	background: darkorange;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	transition: all ease 1s;
+	z-index: 9999;
+}
+
+.body-active{
+	margin-left: 200px;
+}
+
+#menu.nav-active{
+	margin-left: 0;
 }
