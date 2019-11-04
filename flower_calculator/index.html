@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="icon" href="img/favicon.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<section id="main">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm-4">
+    				<div class="calc">
+    				<div class="calc_2">
+    					<h2 class="white-text">Рассчет стоимости</h2>
+    					<label class="white-text" for="flower_edition">Выберите количество</label><br>
+    					<select class="form-control" name="edition" id="flower_edition">
+    						<option value="1">1</option>
+    						<option value="2">2</option>
+    						<option value="3">3</option>
+    						<option value="4">4</option>
+    						<option value="5">5</option>
+    						<option value="10">10</option>
+    						<option value="15">15</option>
+    						<option value="25">25</option>
+    						<option value="50">50</option>
+    						<option value="100">100</option>
+    						<option value="500">500</option>
+    						<option value="1001">1001</option>
+    					</select>
+    					<br>
+    					<label class="white-text" for="flower_paper">Выберите упаковку</label>
+    					<select name="flower_paper" id="flower_paper" class="form-control">
+    						<option data-paper-ratio="0" value="Прозрачная пленка">Без упаковки</option>
+    						<option data-paper-ratio="100" value="Прозрачная пленка">Прозрачная пленка</option>
+    						<option data-paper-ratio="150" value="Джутовая сетка и волокно">Джутовая сетка и волокно</option>
+    						<option data-paper-ratio="200" value="Сизаль">Сизаль</option>
+    						<option data-paper-ratio="350" value="Фетр">Фетр</option>
+    						<option data-paper-ratio="250" value="Искусственная сетка">Искусственная сетка</option>
+    					</select>
+    					<br>
+
+    					<label class="white-text" for="flower_color">Выберите цветок</label>
+    					<select name="flower_color" id="flower_color" class="form-control">
+    						<option data-price-file="115" data-flower="1" value="Односторонняя черно-белая">Красные розы</option>
+    						<option data-price-file="220" data-flower="2" value="Двусторонняя черно-белая">Белые розы</option>
+    						<option data-price-file="170" data-flower="3" value="Односторонняя цветная">Тюльпаны фиолетовые</option>
+    					</select>
+
+    					<br>
+    					<h4 class="white-text">
+    						Стоимость за цветы
+    					</h4>
+    					<p class="price white-text">
+    						<span id="final_price">0</span>
+    						Руб.
+    					</p>
+    				</div>
+    			</div>
+				</div>
+    			<div class="col-sm-8">
+    				<div class="card-images text-center">
+    					<img src="img/roza_3.jpg" alt="" id="card_1_1">
+    					<img src="img/b_roza_1.jpg" alt="" id="card_1_2">
+    					<img src="img/tyulp_1_1.jpg" alt="" id="card_1_3">
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

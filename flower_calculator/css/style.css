@@ -1,0 +1,26 @@
+.calc {
+	margin-top: 30px;
+	border: 7px solid #aeaeae;
+	padding: 20px 40px;
+
+	background: url(../img/bg_fl_1.png) no-repeat center top / cover;
+
+}
+
+.calc_2{
+
+}
+#final_price {
+	font-size: 40px;
+	font-weight: 900;
+}
+.card-images {
+	padding-top: 50px;
+}
+.card-images img {
+	display: none;
+	height: 50vh;
+}
+#card_1_1 {
+	display: inline-block;
+}
