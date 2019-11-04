@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>SignUp</title>
+  <link rel="icon" href="img/favicon.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+
+		<ul class="nav">
+		  <li onclick="showLogin()">Войти</li>
+		  <li onclick="showSignup()">Зарегистрироваться</li>
+		  <li onclick="showForgotPassword()">Забыли пароль</li>
+		  <li onclick="showSubscribe()">Рассылка</li>
+		  <li onclick="showContactUs()">Cвязаться с нами</li>
+		</ul>
+		<div class="wrapper">
+		  <div class="rec-prism">
+			<div class="face face-top">
+			  <div class="content">
+				<h2>Рассылка</h2>
+				<small>Введите ваш email, чтобы подписаться на нашу рассылку!</small>
+				<form onsubmit="event.preventDefault()">
+				  <div class="field-wrapper">
+					<input type="text" name="email" placeholder="email">
+					<label>e-mail</label>
+				  </div>
+				  <div class="field-wrapper">
+					<input type="submit" onclick="showThankYou()">
+				  </div>
+				</form>
+			  </div>
+			</div>
+			<div class="face face-front">
+			  <div class="content">
+				<h2>Войти</h2>
+				<form onsubmit="event.preventDefault()">
+				  <div class="field-wrapper">
+					<input type="text" name="username" placeholder="username">
+					<label>логин</label>
+				  </div>
+				  <div class="field-wrapper">
+					<input type="password" name="password" placeholder="password" autocomplete="new-password">
+					<label>пароль</label>
+				  </div>
+				  <div class="field-wrapper">
+					<input type="submit" onclick="showThankYou()">
+				  </div>
+				  <span class="psw" onclick="showForgotPassword()">Забыли пароль?   </span>
+				  <span class="signup" onclick="showSignup()">Не зарегистрированы?  Зарегистрируйтесь</span>
+				</form>
+			  </div>
+			</div>
+			<div class="face face-back">
+			  <div class="content">
+				<h2>Забыли пароль?</h2>
+				<small>Введите адрес электронной почты, чтобы мы могли отправить вам ссылку для создания нового пароля</small>
+				<form onsubmit="event.preventDefault()">
+				  <div class="field-wrapper">
+					<input type="text" name="email" placeholder="email">
+					<label>e-mail</label>
+				  </div>
+				  <div class="field-wrapper">
+					<input type="submit" onclick="showThankYou()">
+				  </div>
+				</form>
+			  </div>
+			</div>
+			<div class="face face-right">
+			  <div class="content">
+				<h2>Зарегистрироваться</h2>
+				<form onsubmit="event.preventDefault()">
+				  <div class="field-wrapper">
+					<input type="text" name="email" placeholder="email">
+					<label>e-mail</label>
+				  </div>
+				  <div class="field-wrapper">
+					<input type="password" name="password" placeholder="password" autocomplete="new-password">
+					<label>пароль</label>
+				  </div>
+				  <div class="field-wrapper">
+					<input type="password" name="password2" placeholder="password" autocomplete="new-password">
+					<label>повторите пароль</label>
+				  </div>
+				  <div class="field-wrapper">
+					<input type="submit" onclick="showThankYou()">
+				  </div>
+				  <span class="singin mt-0 pt-2" onclick="showLogin()">Уже зарегистрированы?  Войти</span>
+				</form>
+			  </div>
+			</div>
+			<div class="face face-left">
+			  <div class="content">
+				<h2>Cвязаться с нами</h2>
+				<form onsubmit="event.preventDefault()">
+				  <div class="field-wrapper">
+					<input type="text" name="name" placeholder="name">
+					<label>Имя</label>
+				  </div>
+				  <div class="field-wrapper">
+					<input type="text" name="email" placeholder="email">
+					<label>e-mail</label>
+				  </div>
+				  <div class="field-wrapper">
+					<textarea placeholder="your message"></textarea>
+					<label>ваше сообщение</label>
+				  </div>
+				  <div class="field-wrapper">
+					<input type="submit" onclick="showThankYou()">
+				  </div>
+				</form>
+			  </div>
+			</div>
+			<div class="face face-bottom">
+			  <div class="content">
+				<div class="thank-you-msg">
+				  Спасибо!
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+	</div>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
