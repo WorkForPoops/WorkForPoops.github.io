@@ -1,0 +1,24 @@
+#clock{
+	width: 600px;
+	height: 155px;
+	margin: 50px auto;
+	border: 1px solid black;
+	transition: all ease 1s;
+	background: url(../img/sky_1.png) no-repeat center top / cover;
+	overflow: hidden;
+	border-radius: 50px;
+}
+
+#sec{
+	display: block;
+	margin: 0 auto;
+	height: 350px;
+
+
+}
+
+#clock_2{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
