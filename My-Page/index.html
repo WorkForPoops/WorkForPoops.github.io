@@ -20,6 +20,14 @@
 </head>
 
 <body>
+    <div class="preloader" id="preloader">
+      <div class="cssload-tetrominos">
+      	<div class="cssload-tetromino cssload-box1"></div>
+      	<div class="cssload-tetromino cssload-box2"></div>
+      	<div class="cssload-tetromino cssload-box3"></div>
+      	<div class="cssload-tetromino cssload-box4"></div>
+      </div>
+    </div>
 		<div class="stars"></div>
 		<div class="twinkling"></div>
 		<div class="clouds"></div>
@@ -71,11 +79,17 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <script>
 
+    window.onload = function(){
+      let preloader = document.getElementById('preloader');
+      preloader.style.display = 'none';
+    }
+
 		let kosm = document.querySelector('.kosmonavt');
 		kosm.onclick = function(){
 			kosm.classList.add('kosmonavt_2');
 			kosm.classList.remove('kosmonavt');
 			document.querySelector('.kosm_t').textContent = '';
+
 		}
 
 	</script>
