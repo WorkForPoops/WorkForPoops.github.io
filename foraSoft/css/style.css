@@ -1,0 +1,237 @@
+#header{
+	background: url(../img/bg-page.jpg);
+	height: 100vh;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.t-m{
+	font-size: 18px;
+}
+
+/***********************
+			PRELOADER
+***********************/
+
+.preloader{
+	position: fixed;
+	background-color: #75B3D1;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	z-index: 10;
+}
+
+
+.cssload-loader {
+	width: 344px;
+	height: 69px;
+	line-height: 69px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+	font-family: helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size:25px;
+	color: rgb(255,255,255);
+	letter-spacing: 0.2em;
+}
+.cssload-loader::before, .cssload-loader::after {
+	content: "";
+	display: block;
+	width: 21px;
+	height: 21px;
+	background: rgb(255,255,255);
+	position: absolute;
+	animation: cssload-load 0.81s infinite alternate ease-in-out;
+		-o-animation: cssload-load 0.81s infinite alternate ease-in-out;
+		-ms-animation: cssload-load 0.81s infinite alternate ease-in-out;
+		-webkit-animation: cssload-load 0.81s infinite alternate ease-in-out;
+		-moz-animation: cssload-load 0.81s infinite alternate ease-in-out;
+}
+.cssload-loader::before {
+	top: 0;
+}
+.cssload-loader::after {
+	bottom: 0;
+}
+
+
+
+@keyframes cssload-load {
+	0% {
+		left: 0;
+		height: 41px;
+		width: 21px;
+	}
+	50% {
+		height: 11px;
+		width: 55px;
+	}
+	100% {
+		left: 323px;
+		height: 41px;
+		width: 21px;
+	}
+}
+
+@-o-keyframes cssload-load {
+	0% {
+		left: 0;
+		height: 41px;
+		width: 21px;
+	}
+	50% {
+		height: 11px;
+		width: 55px;
+	}
+	100% {
+		left: 323px;
+		height: 41px;
+		width: 21px;
+	}
+}
+
+@-ms-keyframes cssload-load {
+	0% {
+		left: 0;
+		height: 41px;
+		width: 21px;
+	}
+	50% {
+		height: 11px;
+		width: 55px;
+	}
+	100% {
+		left: 323px;
+		height: 41px;
+		width: 21px;
+	}
+}
+
+@-webkit-keyframes cssload-load {
+	0% {
+		left: 0;
+		height: 41px;
+		width: 21px;
+	}
+	50% {
+		height: 11px;
+		width: 55px;
+	}
+	100% {
+		left: 323px;
+		height: 41px;
+		width: 21px;
+	}
+}
+
+@-moz-keyframes cssload-load {
+	0% {
+		left: 0;
+		height: 41px;
+		width: 21px;
+	}
+	50% {
+		height: 11px;
+		width: 55px;
+	}
+	100% {
+		left: 323px;
+		height: 41px;
+		width: 21px;
+	}
+}
+
+
+/*preloader end*/
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.text-1{
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 220%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 9em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+.text-2{
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+}
+.line-2{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 160%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter-2{
+  animation: typewriter2 4s steps(34) 6s 1 normal both,
+             blinkTextCursor2 700ms steps(34) infinite normal;
+}
+@keyframes typewriter2{
+  from{width: 0;}
+  to{width: 9em;}
+}
+@keyframes blinkTextCursor2{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+.btn{
+	background-color: orange;
+	border-radius: 30px;
+	transition: all ease 300ms;
+	z-index:6;
+	text-transform: none;
+}
+
+.btn:hover{
+	background: orangered;
+}
