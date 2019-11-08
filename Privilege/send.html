@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Privilege</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dancing+Script&display=swap" rel="stylesheet"> 
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ 
+</head>
+
+<body>
+
+  	<header class="header_contact">	
+		
+		<nav class="navbar navbar-expand-lg navbar-dark black fixed-top scrolling-navbar">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+    				<img src="img/logo_privilege.png" height="60" alt="logo">
+  				</a>
+				
+				
+				<button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+					<div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+			    </button>
+				
+				<div class="collapse navbar-collapse" id="basicExampleNav">
+					<ul class="navbar-nav mr-auto smooth-scroll">
+						<li class="nav-item">
+							<a href="service.html" class="nav-link waves-effect waves-light">Услуги</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link waves-effect waves-light">Продукция</a>
+						</li>
+						<li class="nav-item">
+							<a href="contacts.html" class="nav-link waves-effect waves-light">Контакты</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav ml-auto nav-flex-icons">
+					  <li class="nav-item">
+						<a href="tel:8 (812) 45-45-208" class="nav-link waves-effect waves-light">
+						  <i class="fa fa-phone"></i>
+						</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link waves-effect waves-light">
+						  <i class="fab fa-vk"></i>
+						</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link waves-effect waves-light">
+						  <i class="fab fa-instagram"></i>
+						</a>
+					  </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+	</header>
+	
+	<div class="main_contact mt-5">
+		<div class="container pt-5">
+			
+			<div class="row d-flex justify-content-center text-center mt-5">
+				<hr class="col hr_1 wow fadeInLeft">
+				<h3 class="col c_h">Записаться на прием</h3>
+				<hr class="col hr_1 wow fadeInRight">
+			</div>
+			
+			<form class="mt-4">
+
+				<!-- Hidden Required Fields -->
+
+				<input type="hidden" name="project_name" value="Privilege">
+
+				<input type="hidden" name="admin_email" value="zelinov_10@outlook.com">
+
+				<input type="hidden" name="form_subject" value="Form Subject">
+
+				<!-- END Hidden Required Fields -->
+
+				
+				
+				<section class="contact-section my-5">
+
+			  <!-- Form with header -->
+			  <div class="card">
+
+				<!-- Grid row -->
+				<div class="row">
+
+				  <!-- Grid column -->
+				  <div class="col-lg-12">
+
+					<div class="card-body form">
+
+					  <!-- Header -->
+					  <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i>Запись:</h3>
+
+					  <!-- Grid row -->
+					  <div class="row">
+
+						<!-- Grid column -->
+						<div class="col-md-6">
+						  <div class="md-form mb-0">
+							<input type="text" id="form-contact-name" name="Имя" class="form-control" required>
+							<label for="form-contact-name">Ваше Имя</label>
+						  </div>
+						</div>
+						<!-- Grid column -->
+
+						<!-- Grid column -->
+						<div class="col-md-6">
+						  <div class="md-form mb-0">
+							<input type="text" id="form-contact-email" name="email" class="form-control" required>
+							<label for="form-contact-email" class="">Ваш email</label>
+						  </div>
+						</div>
+						<!-- Grid column -->
+
+					  </div>
+					  <!-- Grid row -->
+
+					  <!-- Grid row -->
+					  <div class="row">
+
+						<!-- Grid column -->
+						<div class="col-md-6">
+						  <div class="md-form mb-0">
+							<input type="text" id="form-contact-phone" name="Телефон" class="form-control" required>
+							<label for="form-contact-phone" class="">Телефон</label>
+							
+						  </div>
+						</div>
+						<!-- Grid column -->
+						
+						
+						<div class="col-md-6">
+						  <div class="md-form mb-0">
+							<input type="text" id="timepicker-actions-exmpl" name="Дата" class="form-control disabled-days minMaxExample" autocomplete="off" data-timepicker="true" required>
+							<label for="form-contact-phone" class="">Дата</label>
+						  </div>
+						</div>
+						
+						
+						
+						<!-- Grid column -->
+						<div class="col-md-6">
+						  <div class="md-form mb-0">
+							
+							<select class="browser-default custom-select select_1" onchange="f1()">
+							  <option selected>Процедура</option>
+							  <option>Ногтевой сервис</option>
+							  <option>Трихология</option>
+							  <option>Депиляция</option>
+							  <option>Косметология</option>
+							  <option>Имидж зона</option>
+							  <option>Массаж</option>
+							  <option>Солярий</option>
+							</select>
+							
+						  </div>
+						</div>
+						<!-- Grid column -->
+					  
+					  	<input name="Процедура" type="hidden" class="input_1">
+
+					  </div>
+					  <!-- Grid row -->
+
+					  <!-- Grid row -->
+					  <div class="row">
+
+						<!-- Grid column -->
+						<div class="col-md-12">
+						  <div class="md-form mb-0">	
+							<button class="btn btn-outline-black">Отправить</button>
+						  </div>
+						</div>
+						<!-- Grid column -->
+
+					  </div>
+					  <!-- Grid row -->
+
+					</div>
+
+				  </div>
+
+
+				</div>
+				<!-- Grid row -->
+
+			  </div>
+			  <!-- Form with header -->
+
+			</section>
+				
+
+			</form>
+			
+
+			
+		</div>
+	</div>
+	
+		<!-- Footer -->
+	<footer class="page-footer font-small special-color-dark pt-4 pf_c">
+
+	  <!-- Footer Elements -->
+	  <div class="container">
+
+		<!-- Social buttons -->
+		<ul class="list-unstyled list-inline text-center">
+		  <li class="list-inline-item">
+			<a class="btn-floating btn-fb mx-1">
+			  <i class="fab fa-vk"> </i>
+			</a>
+		  </li>
+		  <li class="list-inline-item">
+			<a class="btn-floating btn-tw mx-1">
+			  <i class="fab fa-instagram"> </i>
+			</a>
+		  </li>
+		  <li class="list-inline-item">
+			<a href="tel:8 (812) 45-45-208" class="btn-floating btn-gplus mx-1">
+			  <i class="fa fa-phone"> </i>
+			</a>
+		  </li>
+		</ul>
+		<!-- Social buttons -->
+
+	  </div>
+	  <!-- Footer Elements -->
+
+	  <!-- Copyright -->
+	  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+		<a href="#"> Privilege</a>
+	  </div>
+	  <!-- Copyright -->
+
+	</footer>
+	<!-- Footer -->
+ 
+
+  
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="dist/js/datepicker.min.js"></script>
+  
+  <script type="text/javascript" src="js/script.js"></script>
+  	<script>
+		new WOW().init();
+		
+		var select_1 = document.querySelector('.select_1');
+		var input_1 = document.querySelector('.input_1');
+
+		function f1(){
+			input_1.value = select_1.value;
+			console.log(input_1.value);
+		}
+	
+
+		var disabledDays = [0];
+
+		$('.disabled-days').datepicker({
+			onRenderCell: function (date, cellType) {
+				if (cellType == 'day') {
+					var day = date.getDay(),
+						isDisabled = disabledDays.indexOf(day) != -1;
+
+					return {
+						disabled: isDisabled
+					}
+				}
+			}
+		})
+		
+		
+		$('.minMaxExample').datepicker({
+			// Можно выбрать тольо даты, идущие за сегодняшним днем, включая сегодня
+			minDate: new Date()
+		})
+		
+		
+		// Зададим стартовую дату
+		var start = new Date(),
+			prevDay,
+			startHours = 11;
+
+		// 09:00
+		start.setHours(11);
+		start.setMinutes(0);
+
+
+		$('#timepicker-actions-exmpl').datepicker({
+			timepicker: true,
+			startDate: start,
+			minHours: startHours,
+			maxHours: 20,
+			onSelect: function(fd, d, picker) {
+				// Ничего не делаем если выделение было снято
+				if (!d) return;
+
+				var day = d.getDay();
+
+				// Обновляем состояние календаря только если была изменена дата
+				if (prevDay != undefined && prevDay == day) return;
+				prevDay = day;
+
+				// Если выбранный день суббота или воскресенье, то устанавливаем
+				
+			}
+		})
+		
+	</script>
+</body>
+
+</html>
