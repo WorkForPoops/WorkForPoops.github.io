@@ -39,7 +39,7 @@
     				<img src="img/logo_pr_chb.png" height="60" alt="logo">
   				</a>
 								
-				<button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler second-button b_nav_color" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
 					<div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
 			    </button>
 				
@@ -473,7 +473,10 @@
       let preloader = document.getElementById('preloader');
       preloader.style.display = 'none';
     }
-
+	  
+	  document.querySelector('.b_nav_color').onclick = () =>{
+		  document.querySelector('.navbar-expand-lg').style.backgroundColor = 'black';
+	  }
 	  
 	</script>
    
