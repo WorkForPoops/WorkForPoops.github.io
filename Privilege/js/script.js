@@ -6,11 +6,11 @@ $(document).ready(function() {
 
 	$("form").submit(function() { //Change
 		
-		var check_b = prompt('Проверка на безопасность. Какое число идет после 1?',0);
+//		var check_b = prompt('Проверка на безопасность. Какое число идет после 1?',0);
 		
-		if(check_b.value != 2){
-			alert('Ошибка');
-		}else if(check_b.value == 2){
+//		if(check_b.value != 2){
+//			alert('Ошибка');
+//		}else if(check_b.value == 2){
 			var th = $(this);
 
 			$.ajax({
@@ -34,7 +34,7 @@ $(document).ready(function() {
 				}, 1000);
 
 			});	
-		}
+//		}
 
 		return false;
 
