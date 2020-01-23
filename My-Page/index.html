@@ -15,54 +15,40 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:500|Montserrat:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="preloader" id="preloader">
-      <div class="cssload-tetrominos">
-      	<div class="cssload-tetromino cssload-box1"></div>
-      	<div class="cssload-tetromino cssload-box2"></div>
-      	<div class="cssload-tetromino cssload-box3"></div>
-      	<div class="cssload-tetromino cssload-box4"></div>
-      </div>
+
+  <section class="main">
+
+    <video autoplay loop>
+       <source src="img/video_bg.mp4" type="video/mp4">
+    </video>
+
+    <div class="container text-center pt-5">
+
+      <div class="box">
+       <span></span>
+       <span></span>
+       <span></span>
+       <span></span>
+       <div class="content">
+         <h1>Hello there </h1>
+         <p style="color:#00ffe9;">I'm a Front End web developer. I have a diverse set of skills, from HTML, CSS, Javascript to PHP.</p>
+         <p style="color:#00ffe9;">I'm usually <a href="#" class="a_exp">experimenting</a> with CSS and JS.</p>
+         <p>HTML <dot>.</dot> CSS <dot>.</dot> SASS <dot>.</dot> Gulp <dot>.</dot> Git <dot>.</dot> JavaScript <dot>.</dot> React.js <dot>.</dot> PHP</p>
+         <div class="row">
+           <a href="theLab.html" class="col white-text"><button class="btn btn_main font-weight-bold">The Lab</button></a>
+           <a href="projects.html" class="col white-text"><button class="btn btn_main font-weight-bold">Portfolio</button></a>
+         </div>
+       </div>
+
+     </div>
     </div>
-		<div class="stars"></div>
-		<div class="twinkling"></div>
-		<div class="clouds"></div>
-		<header id="header">
-		<div class="container">
-			<div class="row pt-5">
 
-				<div class="container-fluid d-flex justify-content-center">
-					<div class="">
-						<div class="container-fluid d-flex justify-content-center">
-							<img src="img/maks_my_page.jpg" alt="" class="img-fluid star">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="text-center mt-5 pb-4">
-				<span class="text_i">maks zelinov</span>
-			</div>
-			<div class="pt-5 text_main">
-				<p class="text-white text-center tx_1">I'm a Front End web developer. I have a diverse set of skills, from HTML, CSS, Javascript to PHP.</p>
-				<p class="text-white text-center tx_2">I'm usually <a href="theLab.html" class="a_1">experimenting</a> with CSS and JS.</p>
-				<p class="text-center white-text mt-4 tx_2">HTML<span class="h3 dot"> .</span> CSS<span class="h3 dot"> .</span> SASS<span class="h3 dot"> .</span> Gulp<span class="h3 dot"> .</span> Git<span class="h3 dot"> .</span> JavaScript<span class="h3 dot"> .</span> React.js<span class="h3 dot"> .</span> PHP</p>
-			</div>
-			<div class="row d-flex justify-content-center">
-				<a href="theLab.html" class="white-text"><button class="btn white-text">The Lab</button></a>
-				<a href="projects.html" class="white-text"><button class="btn white-text">Portfolio</button></a>
-			</div>
-			<div class="text-center mt-4">
-				<a href="https://github.com/WorkForPoops" class="tx_2 white-text" target="_blank"><i class="fa fa-github fa-spin" aria-hidden="true"></i> GitHub</a>
-				<a href="https://vk.com/id204384378" class="tx_2 white-text" target="_blank"><i class="fa fa-vk ml-2" aria-hidden="true"></i> Vk</a>
-			</div>
-
-		</div>
-
-	</header>
+  </section>
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
@@ -73,22 +59,6 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
-  <script>
-
-    window.onload = function(){
-      let preloader = document.getElementById('preloader');
-      preloader.style.display = 'none';
-    }
-
-		let kosm = document.querySelector('.kosmonavt');
-		kosm.onclick = function(){
-			kosm.classList.add('kosmonavt_2');
-			kosm.classList.remove('kosmonavt');
-			document.querySelector('.kosm_t').textContent = '';
-
-		}
-
-	</script>
 
 </body>
 
