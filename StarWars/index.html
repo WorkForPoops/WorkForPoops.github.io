@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Warfare</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="lifes">
+		<p class="score"></p>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div id="player" class="skin"></div>
+
+
+<script type="text/javascript" src="script.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script>
+
+	// localStorage.setItem('maxSc', maxScor);
+
+	// let scoreFunc = (props) => {
+	// 	localStorage['ma'] = props;
+	// }
+
+	swal("Добро пожаловать в мою мини-игру!", {
+		buttons: {
+			play: "Играть",
+			setting: 'Управление',
+		},
+		})
+		.then((value) => {
+		switch (value) {
+		
+			case "play":
+				swal(game());
+			break;
+		
+			case "setting": 				
+				swal("W - движение вверх, S - движение вниз, space - выстрел");
+				game();
+			break;
+		
+			default:
+				game();
+		}
+		});
+
+</script>
+
+</body>
+</html>
